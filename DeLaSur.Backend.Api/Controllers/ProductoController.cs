@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DeLaSur.Backend.Domain.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Diagnostics;
@@ -9,6 +10,16 @@ namespace DeLaSur.Backend.Api.Controllers
     [ApiController]
     public class ProductoController : ControllerBase
     {
+        private readonly IScrapingService scrapingService; 
+        public ProductoController(IScrapingService scrapingService)
+        {
+            this.scrapingService = scrapingService;
+        }
+        [HttpGet] public async Task<IActionResult> Get()
+        {
+            var productos = await scrapingService.CaratOnline();
+            return Ok(productos);
+        }
         [HttpPost]
         public async Task<IActionResult> RenderAsync()
         {

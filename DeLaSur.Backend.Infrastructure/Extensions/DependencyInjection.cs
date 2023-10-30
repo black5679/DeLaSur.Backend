@@ -1,4 +1,6 @@
-﻿using DeLaSur.Backend.Domain.UoW;
+﻿using DeLaSur.Backend.Domain.Services;
+using DeLaSur.Backend.Domain.UoW;
+using DeLaSur.Backend.Infrastructure.Services;
 using DeLaSur.Backend.Infrastructure.UoW;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,6 +13,7 @@ namespace DeLaSur.Backend.Infrastructure.Extensions
         {
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IDb, Db>();
+            services.AddTransient<IScrapingService, ScrapingService>();
             return services;
         }
     }
