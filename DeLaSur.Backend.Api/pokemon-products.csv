@@ -1,21 +1,1153 @@
-Image,Name,Price,Clarity,Color
-,Diamond,,loupe clean,fine white (F)
-,Fancy Diamond,,slightly included (si1),fancy light greenish brown
-,Fancy Diamond,,very slightly included (vs2),intense yellow
-,Fancy Diamond,,very very slightly included (vvs2),brownish yellow
-,Fancy Diamond,,slightly included (si1),slightly brownish yellow
-,Fancy Diamond,,very small inclusions (vs1),brownish yellow
-,Fancy Diamond,,very small inclusions (vs1),vivid yellow
-,Fancy Diamond,,slightly included (si1),intense greenish yellow
-,Diamond,,loupe clean,exceptional white (D)
-,Fancy Diamond,,slightly included (si1),brown
-,Fancy Diamond,,very small inclusions (vs1),yellow
-,Fancy Diamond,,very small inclusions (vs1),yellow
-,Fancy Diamond,,very small inclusions (vs1),yellow
-,Diamond,,loupe clean,white (H)
-,Diamond,,loupe clean,near colorless (J)
-,Diamond,,loupe clean,fine white (G)
-,Fancy Diamond,,very small inclusions (vs1),slightly brownish yellow
-,Fancy Diamond,,very slightly included (vs2),brownish yellow
-,Fancy Diamond,,slightly included (si1),brownish yellow
-,Diamond,,loupe clean,exceptional white (D)
+Name,Price,Color,Clarity
+Ruby,91.690,pinkish red (unheated),tiny inclusions
+Tanzanite,65.990,vivid blue,eye clean
+Precious Opal,49.990,multicolor,semi-transparent
+Ruby,49.990,red (unheated),very small inclusions
+Paraiba Tourmaline,44.990,slightly greenish light blue,eye clean
+Ruby,42.490,pink-purple red (unheated),very small inclusions
+Sapphire,38.790,blue (unheated),small inclusions
+Mandarin Garnet,26.290,reddish orange,very small inclusions
+Tanzanite,22.490,vivid blue,eye clean
+Tsavorite,22.490,vivid green,very small inclusions
+Tourmaline,22.490,blue green,eye clean
+Tsavorite,21.590,green,tiny inclusions
+Ruby,20.890,pinkish red (unheated),very small inclusions
+Emerald,19.990,intense green,very small inclusions
+Ruby,19.990,pinkish red (unheated),small inclusions
+Tanzanite,19.990,vivid blue,eye clean
+Sapphire,19.590,blue,very small inclusions
+Ruby,19.590,pinkish red (unheated),very small inclusions
+Sapphire,19.190,blue (unheated),very small inclusions
+Ruby,18.390,intense red (ungebrannt),very small inclusions
+Zircon,18.000,vivid blue,tiny inclusions
+Emerald pair,17.490,intense light green,very small inclusions
+Ruby,17.490,pinkish red (unheated),very small inclusions
+Sapphire,17.490,vivid orange,very small inclusions
+Tanzanite,17.190,intense blue,eye clean
+Ruby,16.690,slightly pinkish red (unheated),tiny inclusions
+Sapphire,16.690,blue (unheated),very small inclusions
+Indicolite,16.590,slightly greenish blue,eye clean
+Zircon,16.490,orange red (dark tone),eye clean
+Imperial Topaz,16.290,orange yellow,tiny inclusions
+Tsavorite,16.290,intense green,small inclusions
+Ruby,16.290,pinkish red (unheated),very small inclusions
+Tsavorite,15.890,intense grass green,very small inclusions
+Sapphire,15.390,blue (unheated),small inclusions
+Sapphire,14.990,blue (unheated),very small inclusions
+Ruby,14.590,red (unheated),small inclusions
+Ruby,14.590,pink-red,small inclusions
+Sapphire,14.590,blue,very small inclusions
+Tsavorite,13.790,intense green,very small inclusions
+Zircon,13.490,intense blue,tiny inclusions
+Sapphire,13.390,intense yellow orange,very small inclusions
+Zircon,12.990,intense blue,tiny inclusions
+Emerald,12.990,green,small inclusions (untreated)
+Tsavorite,12.890,intense grass green,very small inclusions
+Aquamarine,12.890,slightly greenish light blue,tiny inclusions
+Morganite,12.890,pink,eye clean
+Ruby,12.490,purple red (unheated),small inclusions
+Sapphire,12.490,blue (unheated),very small inclusions
+Tsavorite,12.490,intense grass green,small inclusions
+Tsavorite,12.490,intense green,very small inclusions
+Morganite,12.090,pink,very small inclusions
+Tanzanite,11.790,vivid blue,eye clean
+Mandarin Garnet,11.690,vivid orange,very small inclusions
+Tanzanite,11.690,vivid blue,eye clean
+Tsavorite,11.690,intense green,very small inclusions
+Tanzanite,11.690,intense blue (slightly lilac),eye clean
+Green Tourmaline,11.690,green,eye clean
+Sapphire,11.690,blue,very small inclusions
+Zircon,11.390,intense blue,tiny inclusions
+Zircon,11.290,intense blue,tiny inclusions
+Tanzanite,11.290,intense blue,eye clean
+Aquamarine,11.290,light blue,eye clean
+Tourmaline,10.990,mint green,eye clean
+Mandarin Garnet,10.890,reddish orange,very small inclusions
+Beryl,10.890,yellow pinkish-orange,very small inclusions
+Zircon,10.690,intense blue,eye clean
+Diamond,10.290,fine white (F),loupe clean
+Tanzanite,10.090,vivid blue,eye clean
+Tsavorite,9.990,green,small inclusions
+Ruby,9.990,purple red (unheated),small inclusions
+Beryl,9.990,light green,tiny inclusions
+Imperial Topaz,9.990,yellow orange,eye clean
+Tourmaline,9.990,yellowish green,eye clean
+Rubellite,9.990,intense pinkish-purple red,small inclusions
+Tourmaline,9.990,bicolor: light green/light pink,tiny inclusions
+Sapphire,9.990,yellow (unheated),very small inclusions
+Imperial Topaz,9.990,orange yellow,tiny inclusions
+Sapphire,9.590,light orange yellow (unheated),tiny inclusions
+Sapphire,9.590,light blue (unheated),very small inclusions
+Rubellite,9.590,purple red,very small inclusions
+Morganite,9.390,pink,eye clean
+Aquamarine,9.190,light blue,eye clean
+Sapphire,8.990,light yellow (unheated),very small inclusions
+Rubellite,8.990,purple red,small inclusions
+Tourmaline,8.890,bluish green,tiny inclusions
+Emerald,8.790,green,small inclusions
+Sapphire,8.790,pink (unheated),very small inclusions
+Beryl,8.790,light green,very small inclusions
+Tanzanite,8.790,intense blue,eye clean
+Sapphire,8.790,intense yellow orange,very small inclusions
+Green Tourmaline,8.790,green,tiny inclusions
+Aquamarine,8.490,intense light blue,tiny inclusions
+Ruby,8.390,red (unheated),very small inclusions
+Tourmaline,8.390,tricolor: green/yellow/brownish pink,eye clean
+Rubellite,8.390,purple red,eye clean
+Topaz,8.390,bicolor: light blue/brownish orange,small inclusions
+Tanzanite,8.390,blue,eye clean
+Tanzanite,8.390,intense blue,eye clean
+Ruby,8.190,pinkish red (unheated),very small inclusions
+Emerald,7.990,green,very small inclusions
+Fire Opal,7.990,vivid orange,very small inclusions
+Tourmaline,7.990,slightly yellow green,eye clean
+Ruby,7.990,red (unheated),small inclusions
+Aquamarine,7.890,intense light blue,tiny inclusions
+Peridot,7.890,intense green,tiny inclusions
+Green Tourmaline,7.890,slightly bluish green,eye clean
+Emerald,7.890,green,small inclusions
+Aquamarine Pair,7.890,intense light blue,eye clean/tiny inclusions
+Beryl,7.790,light green,eye clean
+Green Tourmaline,7.490,green,eye clean
+Tsavorite,7.490,intense green,tiny inclusions
+Morganite,7.490,pink,tiny inclusions
+Rubellite (Duo),7.490,intense reddish pink,very small inclusions
+Demantoid,7.490,green,very small inclusions
+Aquamarine,7.490,light blue,tiny inclusions
+Demantoid,7.490,green,very small inclusions
+Tsavorite,7.490,green,very small inclusions
+Fancy Diamond,7.490,vivid orange-yellow,very very slightly included (vvs2)
+Tsavorite,7.490,intense green,very small inclusions
+Tanzanite,7.390,slightly lilac blue,eye clean
+Sapphire,7.290,yellow (unheated),very small inclusions
+Tsavorite,7.090,green,very small inclusions
+Sapphire,7.090,intense yellow orange,very small inclusions
+Green Tourmaline,7.090,slightly bluish green,eye clean
+Aquamarine,7.090,light blue,tiny inclusions
+Sapphire,6.990,yellow (unheated),very small inclusions
+Sapphire,6.990,blue - bluish violet (unheated),small inclusions
+Morganite,6.990,pink,eye clean
+Sapphire,6.890,"blue (light to medium tone, unheated)",very small inclusions
+Tourmaline,6.890,slightly orange red,eye clean
+Mandarin Garnet,6.890,reddish orange,small inclusions
+Demantoid,6.690,green,tiny inclusions
+Tanzanite (Duo),6.690,intense blue,eye clean
+Rubellite,6.690,intense pinkish red,small inclusions
+Tourmaline,6.690,pinkish orange,eye clean
+Tsavorite,6.690,green,very small inclusions
+Aquamarine,6.590,slightly greenish blue (light tone),eye clean
+Sapphire,6.490,blue (unheated),very small inclusions
+Tourmaline,6.490,bicolor: very light green/light pink,eye clean
+Imperial Topaz,6.490,orange yellow,eye clean
+Zircon,6.490,slightly brownish pink,eye clean
+Mandarin Garnet,6.490,reddish orange,very small inclusions
+Fancy Diamond,6.390,intense yellow,very slightly included (vs2)
+Chrysoberyl,6.290,yellowish green (light tone),tiny inclusions
+Ruby,6.290,red (unheated),small inclusions
+Tsavorite,6.290,intense light green,tiny inclusions
+Imperial Topaz Pair,6.290,orange yellow,eye clean
+Zircon,6.290,intense blue,very small inclusions
+Rubellite,6.290,intense purple red,small inclusions
+Sapphire,6.290,light lilac (unheated),very small inclusions
+Tanzanite,6.290,vivid blue,eye clean
+Spinel,6.190,lavender,eye clean
+Beryl,5.990,light green,tiny inclusions
+Tsavorite,5.990,intense grass green,tiny inclusions
+Malaya Garnet,5.990,pinkish orange red,tiny inclusions
+Tsavorite,5.890,vivid green,very small inclusions
+Ruby,5.890,pink-purple red (unheated),small inclusions
+Spinel,5.890,pinkish orange,very small inclusions
+Tsavorite,5.890,intense green,very small inclusions
+Tsavorite,5.890,vivid green,very small inclusions
+Green Tourmaline,5.890,green,eye clean
+Green Tourmaline,5.890,green,eye clean
+Tourmaline,5.790,pink,eye clean
+Rubellite,5.790,intense purple red,tiny inclusions
+Tanzanite,5.690,intense blue (slightly lilac),eye clean
+Morganite,5.690,light pink,eye clean
+Aquamarine,5.690,light blue,tiny inclusions
+Zircon,5.690,orange brown,eye clean
+Mandarin Garnet,5.690,vivid orange,tiny inclusions
+Tourmaline,5.690,bicolor: bluish green/light green,eye clean
+Mandarin Garnet,5.590,reddish orange,very small inclusions
+Precious Opal,5.590,tinted white (multicolor opalescendent),transparent
+Fancy Diamond,5.490,vivid yellow,very small inclusions (vs1)
+Peridot,5.390,intense green,eye clean
+Fancy Diamond,5.390,brownish yellow,very very slightly included (vvs2)
+Sapphire,5.390,tinted white (unheated),very small inclusions
+Mandarin Garnet,5.390,vivid orange,small inclusions
+Spinel,5.290,grayish purple,tiny inclusions
+Ruby,5.290,intense red,small inclusions
+Tourmaline,5.290,bluish green,eye clean
+Green Tourmaline,5.290,intense green (slightly bluish),eye clean
+Garnet - Grossular,5.190,yellowish green,very small inclusions
+Tanzanite,5.190,blue,tiny inclusions
+Aquamarine,5.090,light blue,eye clean
+Tanzanite,5.090,intense (violett-blau),eye clean
+Sapphire,5.090,"blue (light to medium tone, unheated)",very small inclusions
+Tanzanite,4.990,intense blue,eye clean
+Spinel,4.990,red,very small inclusions
+Mandarin Garnet,4.890,orange,very small inclusions
+Tourmaline,4.890,pink,eye clean
+Sapphire,4.890,pinkish purple (unheated),very small inclusions
+Fancy Diamond,4.890,slightly brownish yellow,slightly included (si1)
+Sapphire,4.890,blue (unheated),very small inclusions
+Golden Beryl,4.890,golden yellow,eye clean
+Aquamarine,4.890,slightly greenish blue (light tone),tiny inclusions
+Chrysoberyl,4.790,slightly greenish yellow,tiny inclusions
+Aquamarine,4.790,light blue,very small inclusions
+Emerald,4.790,green,small inclusions
+Imperial Topaz,4.790,yellow orange,eye clean
+Tourmaline,4.790,blue green (dark tone),eye clean
+Morganite,4.790,slightly brownish pink,eye clean
+Beryl,4.790,"champagne ",very small inclusions
+Mandarin Garnet,4.690,orange,tiny inclusions
+Morganite,4.690,light pink,eye clean
+Green Tourmaline,4.690,slightly bluish intense green,eye clean
+Tourmaline,4.590,light green (slightly bluish),eye clean
+Sapphire,4.590,"blue (light to medium tone, unheated)",very small inclusions
+Rubellite,4.590,intense pinkish red,small inclusions
+Ruby,4.490,slightly pinkish red,very small inclusions
+Sapphire,4.490,bicolor: blue/yellow (unheated),very small inclusions
+Emerald,4.490,green,very small inclusions
+Sapphire,4.490,light blue (unheated),very small inclusions
+Golden Beryl,4.490,intense golden yellow,tiny inclusions
+Spinel,4.490,purple red,tiny inclusions
+Sapphire,4.490,blue - bluish violet (unheated),very small inclusions
+Tanzanite,4.490,blue,eye clean
+Ruby,4.390,reddish pink (ungebrannt),very small inclusions
+Tsavorite,4.390,green,very small inclusions
+Sapphire,4.390,bicolor: yellow green/blue (unheated),tiny inclusions
+Precious Opal,4.190,white (multicolor opalescendent),transparent
+Sapphire,4.190,yellow green (unheated),very small inclusions
+Tourmaline,4.190,bicolor: light blue/green,very small inclusions
+Emerald,4.190,intense green,small inclusions
+Tsavorite,4.190,green,very small inclusions
+Ruby,4.190,pinkish red (unheated),small inclusions
+Morganite,4.190,pink (very light tone),eye clean
+Ruby,4.090,purple red (unheated),very small inclusions
+Fancy Diamond,3.990,brownish yellow,very small inclusions (vs1)
+Ruby,3.990,pinkish red (unheated),small inclusions
+Tourmaline,3.990,pink,eye clean
+Indicolite (Duo),3.990,slightly greenish blue,tiny inclusions
+Beryl,3.990,light green,very small inclusions
+Demantoid,3.990,green,very small inclusions
+Diamond,3.990,exceptional white (D),loupe clean
+Golden Beryl Pair,3.990,golden yellow,eye clean
+Tanzanite,3.990,vivid blue,tiny inclusions
+Morganite,3.990,light pink,eye clean
+Peridot,3.890,intensivesGrün,tiny inclusions
+Sapphire,3.890,blue green (unheated),very small inclusions
+Ruby,3.890,red (unheated),very small inclusions
+Tsavorite,3.890,green,very small inclusions
+Golden Beryl,3.890,yellow,tiny inclusions
+Zircon,3.790,slightly brownish yellow,eye clean
+Sapphire,3.790,blue (unheated),very small inclusions
+Emerald,3.790,green,small inclusions
+Topaz,3.790,light brown,very small inclusions
+Rubellite,3.790,red,very small inclusions
+Tourmaline,3.690,orange brown,eye clean
+Aquamarine,3.690,light blue,tiny inclusions
+Green Tourmaline,3.690,green,eye clean
+Imperial Topaz,3.690,yellow orange,tiny inclusions
+Garnet - Grossular,3.690,yellow green,very small inclusions
+Fancy Diamond,3.690,vivid yellow,very small inclusions (vs1)
+Tanzanite,3.690,intense blue,eye clean
+Tsavorite,3.690,green (dark tone),small inclusions
+Sapphire,3.690,light pink (unheated),very small inclusions
+Ruby,3.590,pinkish red (unheated),very small inclusions
+Precious Opal,3.590,brownish orange (multicolor opalescendent),semi-transparent
+Tanzanite,3.590,intense blue,tiny inclusions
+Spinel,3.590,lilac,tiny inclusions
+Tanzanite,3.590,bicolor: green/bluish violet (unheated),eye clean
+Tsavorite,3.590,green (dark tone),small inclusions
+Diaspore,3.490,greenish yellow,eye clean
+Aquamarine,3.490,light blue,tiny inclusions
+Demantoid,3.490,green,tiny inclusions
+Spinel,3.490,purplish pink,very small inclusions
+Demantoid,3.490,slightly yellowish green,very small inclusions
+Mandarin Garnet,3.490,reddish orange,very small inclusions
+Spinel,3.490,grayish lilac,tiny inclusions
+Imperial Topaz,3.390,yellow orange,tiny inclusions
+Morganite,3.390,light pink,eye clean
+Tourmaline,3.390,orange brown,eye clean
+Sapphire,3.390,purple pink (unheated),very small inclusions
+Spinel,3.390,pink,very small inclusions
+Rubellite,3.290,pinkish red,tiny inclusions
+color change Garnet,3.290,brown - brownish red,tiny inclusions
+Kunzite,3.290,light pink (slightly purplish),tiny inclusions
+Peridot,3.290,intense green,tiny inclusions
+Spinel,3.290,pinkish purple,very small inclusions
+Zircon,3.290,slightly purplish dark red,tiny inclusions
+Indicolite,3.190,greenish (dunkelblau),eye clean
+Tourmaline,3.190,pink,tiny inclusions
+Mandarin Garnet,3.190,vivid orange,small inclusions
+Fancy Diamond,3.190,intense greenish yellow,slightly included (si1)
+Imperial Topaz,3.190,yellow orange,eye clean
+Peridot,3.090,green,tiny inclusions
+Mandarin Garnet,3.090,vivid orange,very small inclusions
+Morganite,2.990,pink (very light tone),eye clean
+Kunzite,2.990,pinkish purple,eye clean
+Golden Beryl,2.990,yellow,eye clean
+Tourmaline,2.990,brownish yellow,eye clean
+Morganite Pair,2.990,light pink,tiny inclusions
+Demantoid,2.990,green,very small inclusions
+Ruby,2.990,pinkish red (unheated),very small inclusions
+Peridot,2.990,green,very small inclusions
+Rubellite,2.990,pink,small inclusions
+Mandarin Garnet,2.990,reddish orange,transparent
+Chrysoberyl,2.990,yellow,very small inclusions
+Rubellite,2.990,purplish pink,eye clean
+Green Tourmaline,2.990,intense green,eye clean
+Imperial Topaz,2.990,yellow orange,tiny inclusions
+Mandarin Garnet,2.990,reddish orange,very small inclusions
+Peridot,2.890,green,very small inclusions
+Tourmaline,2.890,light pink,tiny inclusions
+Chrysoberyl,2.890,slightly greenish yellow,tiny inclusions
+Green Tourmaline,2.890,intense green,tiny inclusions
+Spinel,2.890,slightly violet purple,very small inclusions
+Rubellite (Duo),2.790,intense reddish pink,very small inclusions
+Precious Opal,2.790,tinted white (multicolor opalescendent),transparent
+Rubellite,2.790,pinkish red,very small inclusions
+Green Tourmaline,2.790,slightly yellow green,eye clean
+Morganite,2.790,very light pink,tiny inclusions
+Sapphire,2.790,blue (unheated),very small inclusions
+Spinel,2.790,grayish violet,eye clean
+Tourmaline,2.790,pinkish red/brownish pink,tiny inclusions
+Indicolite,2.790,blue (leicht graugrün),eye clean
+Spinel,2.690,purple red,very small inclusions
+Tanzanite,2.690,intense blue,tiny inclusions
+Ruby,2.690,pinkish red,very small inclusions
+Golden Beryl Pair,2.690,intense yellow,tiny inclusions
+Golden Beryl,2.690,golden yellow,tiny inclusions
+Diamond,2.690,exceptional white (D),loupe clean
+Tourmaline,2.690,yellow,tiny inclusions
+Tourmaline,2.690,pinkish orange,eye clean
+Green Tourmaline,2.590,green,tiny inclusions
+Tanzanite,2.590,intense blue,tiny inclusions
+Ruby,2.590,red,very small inclusions
+Morganite,2.590,pink (slightly orange brown),eye clean
+Tourmaline,2.590,pink,very small inclusions
+Peridot,2.590,green,very small inclusions
+Tsavorite,2.590,intense grass green,small inclusions
+Fancy Diamond,2.550,brown,slightly included (si1)
+Zircon,2.490,brownish yellow,eye clean
+Aquamarine,2.490,light blue,tiny inclusions
+Sapphire,2.490,blue (unheated),very small inclusions
+Spinel,2.490,pink,very small inclusions
+Rubellite,2.490,reddish pink,eye clean
+Spinel,2.490,pinkish red,very small inclusions
+Zircon,2.490,blue,eye clean
+Green Tourmaline,2.390,green,eye clean
+Tsavorite,2.390,vivid green,very small inclusions
+Rubellite,2.390,pinkish red,very small inclusions
+Imperial Topaz,2.390,orange yellow,eye clean
+Zoisite,2.390,multicolor: green/lilac/bluish gray,tiny inclusions
+Kunzite,2.390,light pink,eye clean
+Tourmaline,2.390,blue green,eye clean
+Garnet - Rhodolite (Duo),2.390,slightly purplish dark red,tiny inclusions
+Heliodore (Duo),2.390,greenish yellow,eye clean
+Sapphire,2.390,bicolor: blue/yellow green (unheated),tiny inclusions
+Citrine,2.390,intense golden yellow,eye clean
+Zircon,2.290,slightly greenish blue,eye clean
+Imperial Topaz,2.290,pinkish orange,tiny inclusions
+Tourmaline,2.290,pink,tiny inclusions
+Sapphire,2.290,pinkish purple (unheated),very small inclusions
+Zircon,2.290,brown,tiny inclusions
+Emerald,2.290,green,translucent
+Tsavorite,2.290,vivid green,very small inclusions
+Edelberyll - Heliodor,2.290,greenish yellow,tiny inclusions
+Sapphire,2.190,blue (unheated),very small inclusions
+Sapphire,2.190,light lilac (unheated),very small inclusions
+Demantoid,2.190,green,very small inclusions
+Rubellite,2.190,pinkish red,very small inclusions
+Zoisite,2.190,bicolor: bluish lilac/green,tiny inclusions
+Tsavorite,2.190,green,very small inclusions
+Tanzanite,2.190,intense blue,eye clean
+Tsavorite,2.150,green,very small inclusions
+Demantoid,2.090,green,very small inclusions
+Kunzite,2.090,light pink,tiny inclusions
+Peridot,2.090,intense green,very small inclusions
+Zircon,2.090,brown,tiny inclusions
+Mandarin Garnet,2.090,orange,translucent
+Peridot,2.090,intense green,tiny inclusions
+Mandarin Garnet,2.090,vivid orange,very small inclusions
+Sphalerite,2.090,slightly yellow orange,very small inclusions
+Tanzanite,2.090,intense blue,eye clean
+Tourmaline,2.050,yellowish green,eye clean
+Peridot,1.990,intense green,small inclusions
+Ruby,1.990,red (unheated),semi-transparent
+Spinel,1.990,lilac,very small inclusions
+Green Tourmaline,1.990,slightly bluish green,eye clean
+Morganite,1.990,pink (very light tone),eye clean
+Tanzanite,1.990,intense blue,eye clean
+Tanzanite,1.990,bicolor: yellow/bluish violet (unheated),eye clean
+Rubellite (Duo),1.990,slightly pinkish purple red,very small inclusions
+Ruby,1.990,pinkish red (unheated),small inclusions
+Zircon Pair,1.990,blue,tiny inclusions
+Fancy Diamond,1.990,yellow,very small inclusions (vs1)
+Peridot Pair,1.990,intense green,very small inclusions
+Emerald pair,1.990,green,(very) small inclusions
+Sapphire,1.990,light blue (unheated),very small inclusions
+Demantoid,1.990,green,very small inclusions
+Peridot,1.990,green,very small inclusions
+Imperial Topaz,1.990,orange yellow,eye clean
+Morganite,1.990,pink,tiny inclusions
+Emerald,1.990,green,small inclusions (untreated)
+Fancy Diamond,1.950,yellow,very small inclusions (vs1)
+Mandarin Garnet,1.890,vivid orange,very small inclusions
+Amethyst,1.890,intense violet,tiny inclusions
+Sapphire,1.890,light yellow (unheated),tiny inclusions
+Tanzanite,1.890,slightly brownish purple (unheated),tiny inclusions
+Tourmaline,1.890,pink,very small inclusions
+Spinel,1.890,purple,tiny inclusions
+Tourmaline,1.890,bicolor: light pink/light green,eye clean
+Tanzanite,1.790,bicolor: green/bluish violet (unheated),tiny inclusions
+Garnet - Rhodolite,1.790,purple red,tiny inclusions
+Aquamarine,1.790,light blue,tiny inclusions
+Aquamarine,1.790,light blue,eye clean
+Aquamarine,1.790,light blue,eye clean
+Fancy Diamond,1.790,yellow,very small inclusions (vs1)
+Mandarin Garnet,1.790,vivid orange,tiny inclusions
+Peridot,1.790,intense green,tiny inclusions
+Emerald,1.790,green,very small inclusions
+Golden Beryl,1.790,yellow,eye clean
+Rubellite,1.790,pinkish red,very small inclusions
+Peridot,1.790,intense green,very small inclusions
+Spinel Pair,1.690,pink,very small inclusions
+Morganite,1.690,pink,tiny inclusions
+Topaz,1.690,pink,very small inclusions
+Iolite,1.690,dark blue,very small inclusions
+Sapphire,1.690,light blue (unheated),very small inclusions
+Ruby,1.690,slightly pinkish red,translucent
+Tourmaline,1.690,pink,eye clean
+Aquamarine,1.690,slightly greenish blue (light tone),tiny inclusions
+Garnet - Grossular,1.690,mint green,very small inclusions
+Peridot,1.690,intense green,tiny inclusions
+Amethyst,1.590,intense violet,tiny inclusions
+Spinel,1.590,purple,tiny inclusions
+Diamond,1.490,near colorless (J),loupe clean
+Morganite Pair,1.490,light pink,eye clean
+Danburite,1.490,colorless (blassrosa getönt),tiny inclusions
+Indicolite,1.490,dark blue,eye clean
+Diamond,1.490,fine white (G),loupe clean
+Rubellite,1.490,pinkish red,small inclusions
+Spinel,1.490,grayish lavender,tiny inclusions
+Diamond,1.490,white (H),loupe clean
+Imperial Topaz,1.490,yellow orange,eye clean
+Sapphire,1.490,bicolor: yellow green/bluish (unheated),tiny inclusions
+Morganite,1.490,very light pink,tiny inclusions
+Tsavorite,1.490,grass green,very small inclusions
+Peridot,1.490,intense green,very small inclusions
+Kunzite,1.490,intense purple pink,tiny inclusions
+Ruby,1.390,pinkish red,small inclusions
+Diamond (Duo),1.390,exceptional white (D),very small inclusions (vs1/vs2)
+Zircon,1.390,brown,tiny inclusions
+Garnet - Grossular,1.390,yellow green,very small inclusions
+Fire Opal,1.390,yellow orange,tiny inclusions
+Topaz,1.390,light yellow,eye clean
+Spinel,1.390,slightly grayish blue,very small inclusions
+Tourmaline,1.390,bluish green,tiny inclusions
+Diamond,1.390,fine white (G),loupe clean
+Tourmaline,1.390,yellow green,eye clean
+Tourmaline Pair,1.390,green,tiny inclusions
+Fancy Diamond,1.350,slightly brownish yellow,very small inclusions (vs1)
+Fancy Diamond,1.350,brownish yellow,very slightly included (vs2)
+Precious Opal,1.290,tinted white (multicolor opalescendent),transparent
+Mandarin Garnet,1.290,"orange ",very small inclusions
+Zircon,1.290,slightly brownish orange,tiny inclusions
+Tanzanite,1.290,intense blue,tiny inclusions
+Tsavorite,1.290,intense grass green,tiny inclusions
+Tourmaline,1.290,light green (slightly bluish),very small inclusions
+Peridot,1.290,green,eye clean
+Topaz,1.290,colorless,tiny inclusions
+Peridot,1.290,intense green,tiny inclusions
+Indicolite,1.290,greenish blue,very small inclusions
+Spinel,1.290,blue,very small inclusions
+Zircon,1.290,colorless,eye clean
+Fire Opal,1.290,orange,tiny inclusions
+Zircon,1.290,colorless,tiny inclusions
+Ruby,1.290,red (unheated),small inclusions
+Peridot,1.290,green,very small inclusions
+Sapphire,1.290,light yellow (unheated),tiny inclusions
+Green Tourmaline,1.290,slightly bluish intense green,eye clean
+Golden Beryl,1.290,intense yellow,eye clean
+Edelberyll - Goshenit,1.190,colorless (slightly tinted),tiny inclusions
+Tourmaline,1.190,pinkish brown,tiny inclusions
+Peridot,1.190,intense green,tiny inclusions
+Topaz,1.190,colorless,very small inclusions
+Chrysoberyl,1.190,yellow,very small inclusions
+Sapphire,1.190,colorless (unheated),very small inclusions
+Emerald,1.190,green,translucent
+Golden Beryl,1.190,intense golden yellow,tiny inclusions
+Beryl,1.190,light green,tiny inclusions
+Fancy Diamond,1.150,brownish yellow,slightly included (si1)
+Spinel,1.090,dark blue,eye clean
+Citrine,1.090,golden yellow,eye clean
+Diamond,1.090,exceptional white (D),loupe clean
+Spinel,1.090,grayish violet,tiny inclusions
+Diaspore,1.090,yellow green,very small inclusions
+Spinel,1.090,grayish violet,very small inclusions
+Aquamarine Pair,1.090,very light blue,eye clean/tiny inclusions
+Green Tourmaline,1.090,green,eye clean
+Peridot,1.090,green,very small inclusions
+Iolite,1.090,dark blue,tiny inclusions
+Tanzanite,1.090,blue,tiny inclusions
+Garnet - Grossular,1.090,slightly yellowish brown,eye clean
+Fancy Diamond,1.050,light brownish yellow,slightly included (si1)
+Indicolite,990,greenish blue,eye clean
+Mandarin Garnet pair,990,orange,tiny inclusions
+Tourmaline,990,purplish pink,eye clean
+Green Tourmaline,990,slightly bluish intense green,eye clean
+Aquamarine,990,light blue,small inclusions
+Zircon (Lot),990,blue,tiny inclusions
+Tanzanite,980,bluish lilac (unheated),tiny inclusions
+Spinel,976,grayish violet,tiny inclusions
+Peridot,960,green,tiny inclusions
+Zoisite,960,very light green,tiny inclusions
+Rubellite (Duo),960,pinkish red,tiny inclusions
+Tourmaline,960,pink,eye clean
+Ruby,960,pinkish red (unheated),small inclusions
+Aquamarine,960,light blue,tiny inclusions
+Spinel,960,purple,very small inclusions
+Imperial Topaz,960,pinkish orange,tiny inclusions
+Emerald,960,green,small inclusions
+Demantoid,960,green,small inclusions
+Fire Opal,960,light yellow,tiny inclusions
+Demantoid,960,olive-green,eye clean
+Kunzite,960,light pink (slightly purplish),tiny inclusions
+Blue Topaz,960,vivid light blue (treated),eye clean
+Sapphire,960,blue,very small inclusions
+Peridot,960,intense green,very small inclusions
+Indicolite,960,slightly greenish blue,very small inclusions
+Imperial Topaz,960,yellow orange,eye clean
+Tsavorite,960,intense green,very small inclusions
+Tourmaline,952,slighlty brownish pinkish red,eye clean
+Tanzanite,952,intense blue (slightly lilac),tiny inclusions
+Tourmaline,944,yellow green (light tone),eye clean
+Aquamarine,936,light blue,tiny inclusions
+Spinel,928,gray-lilac,eye clean
+Garnet - Grossular,920,mint green,very small inclusions
+Mandarin Garnet,920,orange,very small inclusions
+Golden Beryl,920,golden yellow,very small inclusions
+Garnet - Grossular,920,mint green,very small inclusions
+Zircon,920,yellow,eye clean
+Tanzanite,910,medium blue,eye clean
+Rubellite,896,purple red,very small inclusions
+Mandarin Garnet,880,orange,very small inclusions
+Topaz,880,orange brown,very small inclusions
+Tsavorite,880,intense green,small inclusions
+Imperial Topaz,880,yellow orange,tiny inclusions
+Tourmaline,880,pink (slightly orange brown),eye clean
+Golden Beryl,880,intense yellow,very small inclusions
+Topaz,880,light blue,eye clean
+Spinel,880,purple,very small inclusions
+Rubellite,880,pinkish red,tiny inclusions
+Indicolite,880,blue,very small inclusions
+Sapphire,880,blue/light blue (unheated),tiny inclusions
+Emerald,880,intense green,semi-transparent
+Tourmaline,880,yellow green,tiny inclusions
+Scapolite,880,slighly grayish violet,tiny inclusions
+Rubellite,880,purple red,translucent
+Peridot,880,intense green,tiny inclusions
+Topaz,880,light blue,tiny inclusions
+Topaz,864,bicolor: light blue/brownish orange,tiny inclusions
+Imperial Topaz,848,yellow/pinkish orange,tiny inclusions
+Sapphire,840,light blue (unheated),tiny inclusions
+Tanzanite,840,slightly lilac blue,tiny inclusions
+Indicolite,840,greenish blue,very small inclusions
+Tanzanite,840,slightly lilac blue,tiny inclusions
+Precious Opal,840,tinted white (multicolor opalescendent),transparent
+Blue Topaz,840,vivid light blue (treated),tiny inclusions
+Imperial Topaz,840,yellow orange,tiny inclusions
+Emerald,840,intense green,semi-transparent
+Aquamarine,840,light blue,very small inclusions
+Sphalerite,825,vivid orange yellow,very small inclusions
+Diamond,820,fine white (F),loupe clean
+Golden Beryl,800,yellow,tiny inclusions
+Tsavorite,800,intense grass green,very small inclusions
+Tsavorite,800,intense green,tiny inclusions
+Green Tourmaline,800,slightly bluish intense green,tiny inclusions
+Spinel,792,grayish violet (dark tone),tiny inclusions
+Emerald,792,green,very small inclusions
+Green Tourmaline,790,bluish green,tiny inclusions
+Indicolite,790,slightly greenish blue,very small inclusions
+Tanzanite (Duo),790,medium blue (unheated),tiny inclusions
+Tourmaline,790,orange brown,eye clean
+Zircon,784,slightly brownish yellow,eye clean
+Topaz,780,bicolor: light blue/light brownish orange,tiny inclusions
+Sapphire,776,light yellow (unheated),eye clean
+Zircon,772,brownish yellow,tiny inclusions
+Sapphire,768,blue - bluish violet (unheated),very small inclusions
+Aquamarine,760,light blue,tiny inclusions
+Rubellite,760,reddish pink,small inclusions
+Topaz,760,greenish light blue,eye clean
+Imperial Topaz,760,pinkish orange,eye clean
+Mali-Garnet,752,yellow brown,tiny inclusions
+Amethyst,750,intense lilac,tiny inclusions
+Diamond,750,fine white (G),loupe clean
+Mandarin Garnet,750,orange,small inclusions
+Rubellite,736,pinkish red,very small inclusions
+Tanzanite,735,slightly greenish blue,tiny inclusions
+Citrine,725,slightly grayish yellow (unheated),eye clean
+Sphalerite,725,orange,very small inclusions
+Indicolite,720,slightly greenish blue,very small inclusions
+Topaz,720,light blue,eye clean
+Rubellite,720,slightly purplish red,very small inclusions
+Garnet - Rhodolite,720,pinkish red,eye clean
+Tsavorite,720,intense green,very small inclusions
+Tsavorite,720,green,tiny inclusions
+Topaz,720,brown,tiny inclusions
+Zircon,720,intense light blue,eye clean
+Rubellite,720,purple red,very small inclusions
+Zircon (Trio),720,intense light blue,tiny inclusions
+Kunzite,712,pink,very small inclusions
+Zircon,712,colorless,tiny inclusions
+Beryl,712,very light yellow,eye clean
+Topaz,700,colorless (tinted),tiny inclusions
+Scapolite,696,yellow,tiny inclusions
+Golden Beryl,696,intense yellow,tiny inclusions
+Tanzanite,693,intense blue (slightly lilac),tiny inclusions
+Zircon,692,blue,eye clean
+Diamond,690,fine white (F),loupe clean
+Zircon,684,dark orange,eye clean
+Zircon,684,fancy yellowish brown,tiny inclusions
+Aquamarine,680,light blue,very small inclusions
+Citrine,672,orange,eye clean
+Tourmaline,672,light green,eye clean
+Spinel,664,gray-lilac,tiny inclusions
+Topaz,660,pink,tiny inclusions
+Aquamarine,660,light blue,tiny inclusions
+Citrine,660,light yellow (unheated),eye clean
+Precious Opal,655,orange yellow (multicolor opalisierend),translucent
+Tourmaline,652,bluish green,tiny inclusions
+Diamond,650,exceptional white (D),loupe clean
+Indicolite,648,dark blue,eye clean
+Aquamarine,648,light blue,tiny inclusions
+Golden Beryl,648,intense golden yellow,tiny inclusions
+Rubellite,644,dark purple red,tiny inclusions
+Sapphire,640,light blue (unheated),eye clean
+Sapphire,640,light yellow,tiny inclusions
+Demantoid,640,green,tiny inclusions
+Citrine,636,orange,eye clean
+Rubellite,636,intense purple red,very small inclusions
+Tourmaline,632,slightly greenish light blue,tiny inclusions
+Indicolite,632,blue,tiny inclusions
+Citrine,625,very light yellow (unheated),tiny inclusions
+Tourmaline,624,slightly brownish orange pink,tiny inclusions
+Sapphire,624,colorless (unheated),tiny inclusions
+Indicolite,616,slightly greenish blue,eye clean
+Topaz,612,light blue,tiny inclusions
+Ruby Lot,600,pinkish red,translucent
+Garnet - Rhodolite,600,purple red,tiny inclusions
+Edelberyll - Heliodor,600,slightly greenish yellow,eye clean
+Emerald,600,intense light green,small inclusions
+Ametrine,600,lilac/yellow,eye clean
+Tourmaline,596,brownish pink (medium to dark tone),small inclusions
+Tourmaline,596,slightly greenish light blue,tiny inclusions
+Precious Opal,595,tinted white (multicolor opalescendent),transparent
+Tourmaline,592,yellow green (light tone),tiny inclusions
+Zircon,592,blue,tiny inclusions
+Diamond,590,exceptional white (D),loupe clean
+Diamond,590,tinted white (J),slightly included (si1)
+Fancy Diamond,590,intense yellow,very slightly included (vs2)
+Citrine,588,golden yellow,tiny inclusions
+Peridot,584,green,small inclusions
+Aquamarine,584,light blue,small inclusions
+Citrine,584,yellow,eye clean
+Topaz,580,light blue,eye clean
+Tourmaline,580,orange brown,eye clean
+Tanzanite,574,slightly lilac blue,tiny inclusions
+Indicolite,564,slightly greenish blue,eye clean
+Citrine,560,intense yellow orange,eye clean
+Spinel,560,lilac,very small inclusions
+Tanzanite,560,greenish blue (unheated),eye clean
+Amethyst,560,dunkles Violett,tiny inclusions
+Diamond,560,exceptional white (D),loupe clean
+Golden Beryl,560,golden yellow,eye clean
+Mandarin Garnet Lot,560,orange,transparent
+Kunzite,556,very light lilac pink,tiny inclusions
+Aquamarine Pair,550,light blue,tiny inclusions
+Beryl,550,very light green,eye clean
+Aquamarine,550,very light blue,eye clean
+Golden Beryl,544,intense yellow,eye clean
+Emerald,540,intense green,very small inclusions
+Indicolite,540,greenish neon-blue,very small inclusions
+Ametrine,532,violet/golden yellow,tiny inclusions
+Zircon Pair,528,blue,tiny inclusions
+Citrine,528,brownish yellow (ungebrannt),very small inclusions
+Citrine,525,very light yellow (unheated),tiny inclusions
+Fire Opal,520,orange,tiny inclusions
+Rubellite,520,pinkish red,translucent
+Imperial Topaz,520,slightly yellow pink,tiny inclusions
+Imperial Topaz,520,orange yellow (leicht rosa),tiny inclusions
+Garnet - Hessonite,516,orange yellow,very small inclusions
+Spinel,512,purple red,tiny inclusions
+Aquamarine,508,light blue,tiny inclusions
+Zircon,508,blue,tiny inclusions
+Indicolite,496,greenish blue,tiny inclusions
+Tourmaline,496,hellosa,tiny inclusions
+Indicolite,496,blue,eye clean
+Spinel,496,purple,very small inclusions
+Fancy Diamond,495,vivid yellow,slightly included (si2)
+Tanzanite,490,intense blue,very small inclusions
+Blue Topaz,480,vivid light blue (treated),tiny inclusions
+Spinel,480,pink,very small inclusions
+Garnet - Grossular,480,mint green,very small inclusions
+Garnet - Grossular,480,intense light green,semi-transparent
+Garnet - Rhodolite,480,purple red,tiny inclusions
+Green Tourmaline,480,green,tiny inclusions
+Sapphire,480,light blue (unheated),tiny inclusions
+Edelberyll - Heliodor,480,slightly greenish yellow,tiny inclusions
+Topaz Lot,480,pink,tiny inclusions
+Citrine,480,vivid orange,eye clean
+Garnet - Rhodolite,480,purple red,eye clean
+Garnet - Hessonite,480,orange yellow,small inclusions
+Zircon,476,yellow brown,eye clean
+Garnet - Rhodolite,472,dark purple red,tiny inclusions
+Zircon,472,colorless,eye clean
+Precious Opal,469,tinted white (opalisierend),transparent
+Tsavorite,464,intense light green,tiny inclusions
+Sapphire,464,bluish lilac,tiny inclusions
+Emerald,464,green,translucent
+Sapphire,464,light pink (unheated),tiny inclusions
+Demantoid,464,green,tiny inclusions
+Tanzanite,462,slightly greenish blue (ungebrannt),eye clean
+Garnet - Rhodolite,460,pinkish red,tiny inclusions
+Mali-Garnet,460,olive-green,tiny inclusions
+Zircon,460,blue,eye clean
+Topaz,452,light blue,tiny inclusions
+Morganite,452,very light pink,eye clean
+Fancy Diamond,450,brownish orange-yellow,very slightly included (vs2)
+Emerald,448,green,very small inclusions
+Tourmaline,444,brownish orange (cognac),eye clean
+Tourmaline,440,bicolor: brownish pink/olive green,tiny inclusions
+Imperial Topaz (Lot),440,orange yellow,tiny inclusions
+Aquamarine,440,very light blue,tiny inclusions
+Green Tourmaline,440,green,tiny inclusions
+Zircon,440,yellow (leicht bräunlich),eye clean
+Edelberyll - Goshenit,436,colorless,eye clean
+Mali-Garnet,432,greenish yellow,very small inclusions
+Amethyst,432,intense violet,eye clean
+Citrine,432,yellow,tiny inclusions
+Zircon,432,brownish pink,very small inclusions
+Amethyst,432,intense violet,tiny inclusions
+Peridot,428,green,very small inclusions
+Fancy Diamond,425,light yellow,very slightly included (vs2)
+Topaz Lot,420,pink,tiny inclusions
+Peridot,420,green,very small inclusions
+Emerald,416,intense green,small inclusions
+Garnet - Grossular,412,brownish yellow green,tiny inclusions
+Zircon,412,intense light blue,eye clean
+Precious Opal,410,tinted white (multicolor opalescendent),transparent
+Tanzanite,406,slightly greenish blue (ungebrannt),tiny inclusions
+Emerald,398,intense green,small inclusions
+Sapphire Lot,390,blue,translucent
+Tsavorite,390,intense light green,tiny inclusions
+Green Tourmaline,390,green,tiny inclusions
+Beryl,384,light yellow,eye clean
+Apatite,384,light lilac,very small inclusions
+Citrine,384,intense golden yellow,eye clean
+Included Quartz,380,colorless,transparent
+Zircon,380,slightly brown pinkish red (dark tone),tiny inclusions
+Precious Opal,378,brownish orange yellow (multicolor opalescendent),transparent
+Citrine,375,golden yellow,eye clean
+Rutilated Quartz,375,colorless,transparent
+Garnet - Rhodolite (Duo),372,purple red,tiny inclusions
+Scapolite,372,light yellow,tiny inclusions
+Precious Opal,370,white (multicolor opalescendent),transparent
+Indicolite,368,blue,tiny inclusions
+Tanzanite,364,intense blue,translucent
+Precious Opal,360,tinted white (opalescendent),eye clean
+Amethyst,360,violet,tiny inclusions
+Malaya Garnet (Duo),360,slightly purplish red,tiny inclusions
+Zircon,360,brownish yellow,tiny inclusions
+Indicolite,360,blue,tiny inclusions
+Tanzanite,357,intense blue (slightly lilac),translucent
+Ametrine,356,lilac/yellow,tiny inclusions
+Ametrine,356,lilac/yellow,tiny inclusions
+Iolite,356,blue,tiny inclusions
+Golden Beryl,352,intense yellow,eye clean
+Tourmaline,352,slighlty brownish pinkish red,tiny inclusions
+Fire Opal,348,orange yellow,very small inclusions
+Ametrine,348,violet/yellow,tiny inclusions
+Indicolite,348,intense blue,tiny inclusions
+Ametrine,344,lilac/yellow,tiny inclusions
+Spinel,344,slightly grayish lilac,tiny inclusions
+Morganite,340,very light pink,tiny inclusions
+Bicolor Quartz,340,colorless/violet,tiny inclusions
+Green Tourmaline,340,green,eye clean
+Tanzanite,336,intense blue,translucent
+Beryl,336,yellow,tiny inclusions
+Aquamarine,336,light blue,very small inclusions
+Fancy Diamond,330,yellow,slightly included (si1)
+Garnet - Grossular,330,intense light green,semi-transparent
+Zircon,328,dunkelrosa,tiny inclusions
+Smoky Quartz & Lodolite,324,pale brown/brown,transparent
+Indicolite,320,blue,tiny inclusions
+Sapphire Pair,320,dark blue,translucent
+Aquamarine Pair,316,light blue,very small inclusions
+Aquamarine,316,light blue,tiny inclusions
+Fancy Diamond,315,fancy yellowish brown,very slightly included (vs2)
+Citrine Pair,312,yellowish,tiny inclusions
+Indicolite,312,blue,tiny inclusions
+Topaz Pair,312,colorless,tiny inclusions
+Iolite,308,blue,very small inclusions
+Mali-Garnet,300,brownish yellow green,tiny inclusions
+Green Tourmaline,300,green,tiny inclusions
+Ruby Lot,300,red,opaque
+Spinel,300,dark purple,very small inclusions
+Tourmaline,300,yellowish green,very small inclusions
+Topaz,296,pink,tiny inclusions
+Zircon,292,yellow brown,tiny inclusions
+Mandarin Garnet Lot,290,orange,translucent
+Mandarin Garnet,288,orange,very small inclusions
+Zircon Pair,288,blue,eye clean
+Topaz,288,pink,eye clean
+Amethyst,288,dunkles Violett,very small inclusions
+Ametrine,284,lilac/yellow,tiny inclusions
+Ametrine,280,violet/yellow,eye clean
+Green Tourmaline,280,dark green,tiny inclusions
+Tanzanite,280,intense blue,tiny inclusions
+Tourmaline,280,slightly brownish pink,small inclusions
+Pollucite,276,colorless,very small inclusions
+Citrine,276,golden yellow,tiny inclusions
+Citrine,275,yellow (unheated),eye clean
+Aquamarine,272,very light blue,very small inclusions
+Golden Beryl,270,golden yellow,small inclusions
+Green Tourmaline,268,intense green,tiny inclusions
+Citrine,268,golden yellow,tiny inclusions
+Amethyst,268,violet,tiny inclusions
+Garnet - Grossular,264,light mint-green,tiny inclusions
+Bicolor Quartz Pair,264,violet/very light lilac,tiny inclusions
+Amethyst,264,intense violet,very small inclusions
+Garnet - Pyrope,260,red (slightly orange-pink),eye clean
+Citrine,260,slightly brownish golden yellow,tiny inclusions
+Aquamarine,256,light blue,tiny inclusions
+Green Tourmaline,252,green,tiny inclusions
+Amethyst,250,lilac,small inclusions
+Smoky Quartz,250,smoky brown,tiny inclusions
+girasol,250,colorless,very small inclusions
+Citrine,250,slightly brownish orange,tiny inclusions
+Amethyst,248,violet,tiny inclusions
+Amethyst,240,intense lilac,tiny inclusions
+Ruby,240,slightly pinkish red,semi-translucent
+Amethyst,240,dunkles Violett,very small inclusions
+Tourmaline Lot,240,green,tiny inclusions
+Beryl,240,light green,tiny inclusions
+Aquamarine,240,very light blue,small inclusions
+Morganite,240,very light pink,tiny inclusions
+Tourmaline,240,blue green,small inclusions
+Imperial Topaz,240,orange yellow,tiny inclusions
+Zircon,240,slightly brown pinkish red (dark tone),tiny inclusions
+Citrine,240,golden yellow,eye clean
+Topaz,240,yellowish brown (light tone),very small inclusions
+Sapphire,240,dark blue,translucent
+Prasiolite,240,green (treated),eye clean
+Topaz,240,light blue,tiny inclusions
+Indicolite,240,neon blue,tiny inclusions
+Topaz,236,colorless (tinted),tiny inclusions
+Fire Opal,236,orange yellow,tiny inclusions
+Tanzanite,235,intense blue,translucent
+Citrine Pair,232,slightly brownish yellow,eye clean
+Aquamarine,228,light blue,eye clean
+Spinel,228,grayish blue,eye clean
+Smoky Quartz,225,smoky brown (light tone),tiny inclusions
+Indicolite,224,blue (leicht neon),small inclusions
+Malaya Garnet,220,slightly brownish orange,eye clean
+Topaz,220,light brown,tiny inclusions
+mixed lot,220,multicolor,semi-transparent - translucent
+Rubellite,220,purple red,translucent
+Rutilated Topaz,220,very light blue,transparent
+Tsavorite,216,intense green,very small inclusions
+Zircon,216,pinkish orange (leicht bräunlich),eye clean
+Peridot,216,green,very small inclusions
+Citrine,215,golden yellow,tiny inclusions
+Apatite (Duo),212,neon blue,tiny inclusions
+Citrine,212,slightly brownish orange red,eye clean
+Garnet - Spessartine,212,orange red,eye clean
+Mandarin Garnet,212,vivid orange,semi-transparent
+Emerald,210,green,very small inclusions
+Amethyst,210,light lilac,tiny inclusions
+Iolite,210,blue,very small inclusions
+Amethyst,208,violet,very small inclusions
+Citrine,208,golden yellow,eye clean
+Amethyst,200,intense lilac,tiny inclusions
+Citrine,200,very light yellow (unheated),eye clean
+Amethyst,200,intense lilac,tiny inclusions
+Topaz,200,light champagne,tiny inclusions
+Morganite,198,very light pink,eye clean
+Tourmaline,196,light pink (slightly purplish),very small inclusions
+Fire Opal,196,orange yellow,tiny inclusions
+Tourmaline,196,orange brown,small inclusions
+Golden Beryl,196,yellow,tiny inclusions
+Fire Opal,196,orange,transparent
+Kunzite,192,light pink,tiny inclusions
+Green Tourmaline,192,green,eye clean
+Citrine,192,yellow,tiny inclusions
+Petalite,192,colorless,tiny inclusions
+Tourmaline,192,greenish yellow,tiny inclusions
+Imperial Topaz,192,orange yellow,tiny inclusions
+Tourmaline,192,brownish pink,tiny inclusions
+mixed lot,190,multicolor,very small inclusions
+Peridot,188,green,small inclusions
+Ruby,184,pinkish red,very small inclusions
+Peridot,184,green,eye clean
+Aquamarine,184,light blue,tiny inclusions
+Amethyst,184,intense violet,tiny inclusions
+Amethyst,184,violet,tiny inclusions
+Topaz,180,light blue,tiny inclusions
+Sillimanite,180,yellow green,very small inclusions
+Garnet - Pyrope,180,reddish,tiny inclusions
+Golden Beryl,180,yellow,very small inclusions
+Green Tourmaline,180,green,tiny inclusions
+Topaz,180,light blue,tiny inclusions
+Peridot,176,green,tiny inclusions
+Morganite,176,very light pink,tiny inclusions
+Amethyst,176,intense lilac,tiny inclusions
+Prasiolite,176,green (treated),tiny inclusions
+Prasiolite,176,green (treated),tiny inclusions
+Prasiolite,176,green (treated),eye clean
+Peridot,176,green,small inclusions
+Indicolite,176,slightly greenish blue,tiny inclusions
+Amethyst,172,very light lilac,eye clean
+Tsavorite,172,intense green,very small inclusions
+Aquamarine,172,very light blue,tiny inclusions
+Included Quartz,168,colorless,transparent
+Amethyst,168,intense violet,tiny inclusions
+Fire Opal,168,orange yellow,tiny inclusions
+Ametrine (Duo),168,lilac/yellow,tiny inclusions
+Topaz,168,light blue,eye clean
+Amethyst,168,violet,tiny inclusions
+Andalusite,168,slighlty greenish brown,eye clean
+Aquamarine,168,light blue,very small inclusions
+Smoky Quartz,165,dark brown,tiny inclusions
+Garnet - Rhodolite,165,dark purple red,small inclusions
+Smoky Quartz,165,light brown,tiny inclusions
+Mali-Garnet (Duo),160,brownish yellow orange,tiny inclusions
+Morganite,160,light pink,eye clean
+Morganite Lot,160,very light pink,transparent
+Topaz,160,colorless,tiny inclusions
+Ametrine,156,lilac/yellow,tiny inclusions
+Peridot,152,green,small inclusions
+Zircon Pair,152,colorless,very small inclusions
+White Moonstone Lot,150,see photo,transparent
+Aquamarine,144,very light blue,tiny inclusions
+Fire Opal,144,yellow orange,tiny inclusions
+Garnet - Rhodolite,144,purple red,tiny inclusions
+Golden Beryl,144,intense yellow,eye clean
+Tourmaline-Quartz,144,colorless,transparent
+Scapolite,144,brownish (rosa ),tiny inclusions
+Rutilated Quartz,144,see photo,transparent
+Peridot Pair,140,green,very small inclusions
+Diamond,135,white (H),slightly included (si1)
+Chrysoprase,128,see photo,semi-translucent
+Garnet - Almandine,128,orange red,tiny inclusions
+Quartz,125,colorless,eye clean
+Amethyst,124,intense violet,tiny inclusions
+Green Tourmaline,124,green,tiny inclusions
+Topaz,120,yellow,tiny inclusions
+Bicolor Quartz,120,light yellow/colorless,eye clean
+Smoky Quartz,120,smoky brown (light tone),tiny inclusions
+Rutilated Quartz,120,colorless/golden,semi-transparent
+Tourmaline,120,bluish green,very small inclusions
+Quartz lot,120,colorless,very small inclusions
+Included Quartz,120,colorless/silver,transparent
+Garnet - Pyrope,120,reddish,very small inclusions
+Sillimanite,120,slightly greenish light yellow,very small inclusions
+Lemon Quartz,120,see photo,transparent
+Aquamarine,120,very light blue,tiny inclusions
+Spinel,120,pink,very small inclusions
+Indicolite,120,blue,tiny inclusions
+White Moonstone,112,see photo,translucent
+Bicolor Quartz,112,pale yellow/dark brown (enhanced),tiny inclusions
+Peridot Pair,108,green,tiny inclusions
+Morganite Pair,108,light pink,eye clean
+Quartz,108,colorless,tiny inclusions
+Topaz,108,light blue,tiny inclusions
+Tourmaline-Quartz pair,100,colorless,transparent
+Topaz,100,very light pink,very small inclusions
+Included Quartz,100,colorless,transparent
+Amethyst,100,very light lilac,tiny inclusions
+Sapphire Lot,100,greenish,tiny inclusions
+Scapolite,100,yellow,eye clean
+Morganite,100,light pink,eye clean
+Lemon Quartz,100,light yellow (treated),eye clean
+Sphene (Titanite),100,yellow brown,very small inclusions
+Diamond,100,white (H),slightly included (si1)
+Scapolite,100,grayish violet,tiny inclusions
+Spinel,100,grayish violet,very small inclusions
+Iolite,100,dark blue,semi-transparent
+Sapphire Lot,100,intense yellow (treated),tiny inclusions
+Mali-Garnet,100,yellow brown,tiny inclusions
+Lemon Quartz,100,yellow (treated),eye clean
+Quartz,100,colorless,tiny inclusions
+Golden Beryl Pair,100,yellow,tiny inclusions
+Bicolor Quartz,100,colorless/violet,tiny inclusions
+Peridot Pair,100,green,tiny inclusions
+Zircon,100,yellow brown,tiny inclusions
+Golden Beryl,100,intense yellow,tiny inclusions
+Calcite,100,orange,very small inclusions
+Ametrine,100,lilac/yellow,tiny inclusions
+Apatite,100,neon blue,very small inclusions
+Lemon Quartz,100,yellow (treated),tiny inclusions
+Smoky-Quartz Trio,90,brown,transparent
+Chrysoprase (Duo),90,see photo,translucent
+Bicolor Quartz Pair,90,yellow/brown (treated),tiny inclusions
+Ruby,90,dark red,semi-translucent
+Zircon,88,yellow green,tiny inclusions
+Spinel,88,grayish lilac,very small inclusions
+Spinel,80,pink,tiny inclusions
+White Moonstone Lot,80,see photo,transparent
+Rutilated Quartz,80,see photo,transparent
+Lemon Quartz,78,yellow (treated),eye clean
+Ametrine,76,lilac/yellow,tiny inclusions
+Rutilated Quartz,76,colorless/yellow,transparent
+Rutilated Quartz,76,colorless,transparent
+Amethyst Pair,76,intense violet,semi-transparent
+Chrysoprase,76,see photo,translucent
+Topaz,76,colorless,tiny inclusions
+Quartz,76,colorless,tiny inclusions
+Prehnite Lot,75,"green, yellowish green (light tones)",transparent
+Morganite Lot,75,pink,semi-transparent
+Golden Beryl,75,yellow,transparent
+Moonstone,72,see photo,transparent
+Amethyst Pair,72,intense violet,semi-transparent
+Topaz,72,very light blue,eye clean
+Aquamarine,72,light blue,eye clean
+Topaz,70,colorless,eye clean
+Rutilated Quartz,70,colorless,transparent
+Sanidine (Feldspar),64,very light yellow,tiny inclusions
+Rutilated Quartz,64,colorless,transparent
+Amethyst Lot,64,intense violet,semi-transparent
+Rutilated Quartz Pair,64,see photo,transparent
+Topaz,62,colorless,eye clean
+Smoky Quartz,60,dark brown,transparent
+Rutilated Quartz,60,see photo,transparent
+Peridot,60,green,very small inclusions
+Prehnite,60,slightly yellow green,semi-transparent
+Topaz,60,colorless,eye clean
+Enstatite,60,fancy yellowish brown,tiny inclusions
+Rose-Quartz,60,see photo,transparent
+Amethyst Pair,60,intense violet,semi-transparent
+Lemon Quartz,60,see photo,transparent
+Quartz,60,colorless,eye clean
+Citrine,58,yellow,transparent
+Topaz,58,colorless,eye clean
+Rose-Quartz,56,see photo,tiny inclusions
+Quartz lot,55,fancy yellowish brown,tiny inclusions
+Rose-Quarz trio,55,see photo,semi-transparent
+Bicolor Quartz,54,colorless/brown (treated),tiny inclusions
+Topaz,54,colorless (slightly tinted),tiny inclusions
+Lemon Quartz,52,see photo,transparent
+Amethyst,52,light lilac,tiny inclusions
+Topaz,50,colorless,tiny inclusions
+Morganite,48,very light pink,transparent
+Rose-Quartz (Lot),48,see photo,very small inclusions
+Moonstone (Duo),48,see photo,semi-translucent
+Oligoclase (Feldspar),48,slighlty bluish light green,tiny inclusions
+Chrysoprase,48,see photo,translucent
+Dendritic Quartz,48,see photo,semi-transparent
+Rutilated Quartz,48,see photo,transparent
+Indicolite Lot,48,greenish blue,transparent
+Spinel,48,black,opaque
+Dendritic Quartz,48,see photo,semi-transparent
+Amethyst Pair,48,dark violet,semi-transparent
+Dendritic Quartz,48,see photo,semi-transparent
+Dendritic Quartz,48,see photo,transparent
+Opal Lot,48,see photo,opaque
+Chrysoprase,45,see photo,translucent
+Rutilated Quartz,45,colorless,transparent
+Garnet (Lot),45,dark red,small inclusions
+Topaz,44,colorless,tiny inclusions
+Rose-Quartz (Duo),44,see photo,transparent
+Quartz,42,colorless,tiny inclusions
+Moonstone Lot,40,see photo,semi-transparent
+Demantoid,40,yellowish green,very small inclusions
+Spinel Lot,40,black,opaque
+Opal,40,see photo,opaque
+Iolite,40,dark blue,transparent
+turquoise,40,see photo,opaque
+Citrine,36,yellow,transparent
+turquoise,36,see photo,opaque
+Dendritic-Quartz trio,36,see photo,semi-transparent
+Moonstone,36,see photo,translucent
+Rose-Quartz (Duo),34,see photo,transparent
+Rhyolite,32,see photo,opaque
+Jasper,32,see photo,opaque
+Citrine,32,yellow,transparent
+Labradorite,32,see photo,translucent
+Rutilated Quartz Lot,30,see photo,translucent
+Labradorite,30,see photo,translucent
+Mookaite,30,see photo,opaque
+Agate,30,see photo,translucent
+Rutilated Quartz,30,see photo,semi-transparent
+Spinel Lot,30,black,opaque
+Dendritenopal,30,see photo,opaque
+Fossils,30,see photo,opaque
+Moonstone,30,see photo,semi-translucent
+Green Tourmaline,30,dark green,translucent
+Agate,30,see photo,translucent
+Agate,28,see photo,translucent
+Rhyolite,28,see photo,opaque
+Chrysoprase,28,see photo,translucent
+Garnet - Almandine (Duo),28,brownish dark purple red,translucent
+Golden Beryl,27,yellow,tiny inclusions
+Jasper,26,see photo,opaque
+Noreena Jasper,26,see photo,opaque
+Sunstone lot,24,see photo,translucent
+Chalcedony,24,see photo,translucent
+Mookaite,24,see photo,opaque
+Jasper,24,see photo,opaque
+Moonstone (Duo),24,see photo,translucent
+Fossils,24,see photo,opaque
+Citrine,24,light yellow,transparent
+Scolecite,24,see photo,opaque
+Jasper,24,see photo,opaque
+Septaria,24,see photo,opaque
+Chalcedony,24,see photo,translucent
+Opal,24,see photo,opaque
+Epidote-Piemontite,24,see photo,opaque
+Chalcedony Lot,24,see photo,translucent
+Labradorite,22,see photo,translucent
+operculum pair,22,see photo,opaque
+Jasper,22,see photo,opaque
+Moonstone,22,see photo,semi-translucent
+White Moonstone,20,see photo,transparent
+Amazonite,20,see photo,semi-translucent
+Malachite,20,see photo,opaque
+Jasper,20,see photo,opaque
+Smoky Quartz,20,very light smoky brown,tiny inclusions
+Onyx,20,see photo,opaque
+Fossils,20,see photo,opaque
+Fossils,20,see photo,opaque
+Howlite,20,see photo,opaque
+Agate,20,see photo,translucent
+Fossils,20,see photo,opaque
+Feldspar,20,see photo,semi-translucent
+Agate pair,20,see photo,translucent
+Agate,20,see photo,translucent
+Colour treated Quartz,20,see photo,semi-translucent
+Labradorite,20,see photo,translucent
+Labradorite,20,see photo,translucent
+Tiger's Eye,18,see photo,opaque
+Chalcedony,18,see photo,semi-translucent
+Moosachat,18,see photo,translucent
+Agate,18,see photo,translucent
+Fossils,18,see photo,opaque
+Jasper (Duo),18,see photo,opaque
+Agate,18,see photo,translucent
+Agate,16,see photo,opaque
+Sign Agate,16,see photo,translucent
+turquoise,16,see photo,opaque
+Carnelian (Duo),15,see photo,translucent
+Rhodochrosite,14,see photo,opaque
+Obsidian,14,see photo,opaque
+Obsidian,14,see photo,opaque
+Chalcedony,12,see photo,translucent
+Opal,12,see photo,opaque
+Chalcedony,12,see photo,translucent
+abalone,12,see photo,opaque
+Ruby-Zoisite (Lot),12,see photo,opaque
+Tiger's Eye,10,see photo,opaque
+Moonstone,10,see photo,translucent

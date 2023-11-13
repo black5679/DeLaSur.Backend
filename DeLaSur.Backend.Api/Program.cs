@@ -1,3 +1,4 @@
+using DeLaSur.Backend.Api.Middlewares;
 using DeLaSur.Backend.Application.Extensions;
 using DeLaSur.Backend.Infrastructure.Extensions;
 using System.Data;
@@ -28,5 +29,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.UseMiddleware<ErrorHandlerMiddleware>();
 app.Run();
