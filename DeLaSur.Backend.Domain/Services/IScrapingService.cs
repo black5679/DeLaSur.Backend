@@ -16,5 +16,8 @@ namespace DeLaSur.Backend.Domain.Services
         public decimal Price { get; set; }
         public string? Color { get; set; }
         public string? Clarity { get; set; }
+        public decimal? PrimeraMedida { get; set; }
+        public decimal? SegundaMedida { get; set; }
+        public decimal? TerceraMedida { get; set; }
     }
 }
