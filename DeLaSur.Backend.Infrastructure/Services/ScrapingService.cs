@@ -46,6 +46,10 @@ namespace DeLaSur.Backend.Infrastructure.Services
                         {
                             product.Color = e[1].InnerText.Trim();
                         }
+                        if (text.Contains("shape"))
+                        {
+                            product.Forma = e[1].InnerText.Trim();
+                        }
                         if (text.Contains("clarity"))
                         {
                             product.Clarity = e[1].InnerText.Trim();
@@ -65,18 +69,17 @@ namespace DeLaSur.Backend.Infrastructure.Services
                                 .Cast<Match>()
                                 .Select(match => decimal.Parse(match.Value))
                                 .ToArray();
-                            var measuresarray = measures.Split(" ");
                             if (numbers.Length > 0)
                             {
-                                product.PrimeraMedida = numbers[0];
+                                product.Largo = numbers[0];
                             }
                             if (numbers.Length > 1)
                             {
-                                product.SegundaMedida = numbers[1];
+                                product.Ancho = numbers[1];
                             }
                             if (numbers.Length > 2)
                             {
-                                product.TerceraMedida = numbers[2];
+                                product.Alto = numbers[2];
                             }
                         }
                     }
