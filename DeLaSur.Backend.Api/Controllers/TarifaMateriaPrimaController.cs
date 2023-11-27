@@ -1,5 +1,6 @@
 ﻿using DeLaSur.Backend.Application.Commands.TarifaMateriaPrima.Save;
-using DeLaSur.Backend.Application.Queries.Usuario.Get;
+using DeLaSur.Backend.Application.Queries.TarifaMateriaPrima.Get;
+using DeLaSur.Backend.Application.Queries.TarifaMateriaPrima.GetById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +18,13 @@ namespace DeLaSur.Backend.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var response = await mediator.Send(new GetUsuarioQuery());
+            var response = await mediator.Send(new GetTarifaMateriaPrimaQuery());
+            return Ok(response);
+        }
+        [HttpGet("{Id}")]
+        public async Task<IActionResult> GetById([FromRoute] GetByIdTarifaMateriaPrimaQuery query)
+        {
+            var response = await mediator.Send(query);
             return Ok(response);
         }
         [HttpPost]

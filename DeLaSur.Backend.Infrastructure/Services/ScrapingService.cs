@@ -40,8 +40,15 @@ namespace DeLaSur.Backend.Infrastructure.Services
                     var cells = container.QuerySelector("div.item-description").QuerySelector("table").QuerySelector("tbody").QuerySelectorAll("tr");
                     foreach (var cell in cells)
                     {
+                        Regex regex = new("[a-zA-Z-]");
                         var e = cell.QuerySelectorAll("td");
                         var text = e[0].InnerText.ToLower();
+                        if (text.Contains("weight"))
+                        {
+                            var peso = e[1].InnerText.ToLower().Replace("ct."," ").Replace("ca."," ").Replace("ct", " ").Replace("ca", " ").Trim();
+                            if(peso.Contains("-")) peso = peso.Remove(peso.IndexOf("-")); // En caso de rango de peso
+                            if (peso != "") product.Peso = decimal.Parse(peso);
+                        }
                         if (text.Contains("color"))
                         {
                             product.Color = e[1].InnerText.Trim();
@@ -57,7 +64,7 @@ namespace DeLaSur.Backend.Infrastructure.Services
                         if (text.Contains("measures"))
                         {
                             var measures = e[1].InnerText.ToLower().Trim();
-                            Regex regex = new("[a-zA-Z-]");
+                            
                             measures = regex.Replace(measures, " ");
                             regex = new Regex(@"\d+\.\d+");
 
@@ -91,7 +98,7 @@ namespace DeLaSur.Backend.Infrastructure.Services
                     price = price.Replace(",", ".");
                     decimal priceDecimal = decimal.Parse(price.Trim());
                     product.Name = name;
-                    product.Price = priceDecimal;
+                    product.Precio = priceDecimal;
 
                     products.Add(product);
                 }

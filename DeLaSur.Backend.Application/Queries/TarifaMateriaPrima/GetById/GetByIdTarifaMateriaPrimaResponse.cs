@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DeLaSur.Backend.Domain.Models
+namespace DeLaSur.Backend.Application.Queries.TarifaMateriaPrima.GetById
 {
-    public class TarifaMateriaPrimaModel
+    public class GetByIdTarifaMateriaPrimaResponse
     {
         public int Id { get; set; }
         public int IdMateriaPrima { get; set; }
@@ -21,6 +21,5 @@ namespace DeLaSur.Backend.Domain.Models
         public decimal Alto { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaModificacion { get; set; }
-        public bool Status { get; set; }
     }
 }

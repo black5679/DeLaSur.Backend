@@ -4,6 +4,7 @@ namespace DeLaSur.Backend.Domain.Repositories
 {
     public interface ITarifaMateriaPrimaRepository
     {
-        Task<int> Save(List<TarifaMateriaPrimaModel> tarifaMateriaPrima);
+        Task<TarifaMateriaPrimaModel> GetById(int id);
+        Task Save(List<TarifaMateriaPrimaModel> tarifasMateriaPrima, int idFuente);
     }
 }
