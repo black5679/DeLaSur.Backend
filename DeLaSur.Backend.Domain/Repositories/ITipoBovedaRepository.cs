@@ -2,8 +2,8 @@
 
 namespace DeLaSur.Backend.Domain.Repositories
 {
-    public interface IInventarioRepository
+    public interface ITipoBovedaRepository
     {
-        Task<IEnumerable<InventarioModel>> Get();
+        Task<IEnumerable<TipoBovedaModel>> Get();
     }
 }

@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DeLaSur.Backend.Application.Queries.Inventario.Get
+namespace DeLaSur.Backend.Application.Queries.TipoBoveda.Get
 {
-    public class GetInventarioQuery : IRequest<IEnumerable<BaseResponse>>
+    public class GetTipoBovedaQuery : IRequest<IEnumerable<BaseResponse>>
     {
     }
 }

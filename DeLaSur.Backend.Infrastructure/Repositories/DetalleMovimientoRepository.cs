@@ -1,8 +1,6 @@
 ﻿using Dapper;
 using DeLaSur.Backend.Domain.Models;
 using DeLaSur.Backend.Domain.Repositories;
-using DeLaSur.Backend.Infrastructure.UserDefinedTableTypes;
-using Mapster;
 using System.Data;
 
 namespace DeLaSur.Backend.Infrastructure.Repositories
@@ -16,10 +14,10 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
             this.connection = connection;
             this.transaction = transaction;
         }
-        public async Task Insert(List<DetalleMovimientoModel> detallesMovimiento)
+        public async Task<IEnumerable<DetalleMovimientoModel>> GetByIdMovimiento(int idMovimiento)
         {
-            var detalles = detallesMovimiento.Adapt<DetalleMovimientoUserDefinedTableType>();
-            await connection.ExecuteAsync("Movimiento.InsertDetalleMovimiento", new { Detalles = detalles }, transaction, null, CommandType.StoredProcedure);
+            var detallesMovimiento = await connection.QueryAsync<DetalleMovimientoModel>("Movimiento.GetDetalleMovimientoByIdMovimiento", new { IdMovimiento = idMovimiento }, transaction, null, CommandType.StoredProcedure);
+            return detallesMovimiento;
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Domain.Models
 {
-    public class InventarioModel
+    public class TipoBovedaModel
     {
         public required int Id { get; set; }
         public required string Nombre { get; set; }

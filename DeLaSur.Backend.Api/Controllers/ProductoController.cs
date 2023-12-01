@@ -1,7 +1,5 @@
 ﻿using DeLaSur.Backend.Domain.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Diagnostics;
 
 namespace DeLaSur.Backend.Api.Controllers

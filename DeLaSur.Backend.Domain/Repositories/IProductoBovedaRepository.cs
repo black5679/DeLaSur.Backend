@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Domain.Repositories
 {
-    public interface IDetalleMovimientoRepository
+    public interface IProductoBovedaRepository
     {
-        Task<IEnumerable<DetalleMovimientoModel>> GetByIdMovimiento(int idMovimiento);
+        Task<int> Save(List<ProductoBovedaModel> productosBoveda, int idBoveda, int usuarioCreacion);
     }
 }

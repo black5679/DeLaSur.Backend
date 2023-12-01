@@ -17,6 +17,11 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
             this.connection = connection;
             this.transaction = transaction;
         }
+        public async Task<MovimientoModel> GetById(int id)
+        {
+            var movimiento = await connection.QueryFirstOrDefaultAsync<MovimientoModel>("Movimiento.GetByIdMovimiento", new { Id = id }, transaction, null, CommandType.StoredProcedure);
+            return movimiento;
+        }
         public async Task<int> Insert(MovimientoModel movimiento)
         {
             var detalles = movimiento.DetallesMovimiento.Adapt<List<DetalleMovimientoUserDefinedTableType>>();

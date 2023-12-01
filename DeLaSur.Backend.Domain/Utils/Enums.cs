@@ -43,11 +43,6 @@
         {
             CaratOnline = 1
         }
-        public enum Inventario
-        {
-            Boveda = 1,
-            Tienda = 2
-        }
         public enum TipoMovimiento
         {
             EntradaMercaderia = 1,

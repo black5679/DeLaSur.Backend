@@ -27,17 +27,17 @@ namespace DeLaSur.Backend.Application.Commands.MateriaPrimaBoveda.Insert
         }
         public async Task<ResponseModel> Handle(InsertMateriaPrimaBovedaCommand request, CancellationToken cancellationToken)
         {
-            var movimiento = new MovimientoModel() { IdInventario = (int) Enums.Inventario.Boveda, IdTipoMovimiento = (int) Enums.TipoMovimiento.EntradaMercaderia, Inventario = request.IdBoveda, UsuarioCreacion = request.UsuarioCreacion };
+            var movimiento = new MovimientoModel() { IdInventario = request.IdBoveda, IdTipoMovimiento = (int) Enums.TipoMovimiento.EntradaMercaderia, Inventario = request.IdBoveda, UsuarioCreacion = request.UsuarioCreacion };
             foreach (var item in request.MateriasPrimas)
             {
                 var detalle = new DetalleMovimientoModel() { IdMercaderia = item.IdMateriaPrima, IdTipoMercaderia = (int)Enums.TipoMercaderia.MateriaPrima, Cantidad = item.Stock };
                 movimiento.DetallesMovimiento.Add(detalle);
             }
-            await movimientoRepository.Insert(movimiento);
+            var id = await movimientoRepository.Insert(movimiento);
             var materiasPrimas = request.MateriasPrimas.Adapt<List<MateriaPrimaBovedaModel>>();
             await materiaPrimaBovedaRepository.Save(materiasPrimas, request.IdBoveda, request.UsuarioCreacion);
             unitOfWork.Commit();
-            return new() { };
+            return new() { Message = "Se registró la mercadería con éxito", Data = id };
         }
     }
 }

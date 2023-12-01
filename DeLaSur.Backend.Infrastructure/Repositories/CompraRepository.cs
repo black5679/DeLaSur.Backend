@@ -5,19 +5,19 @@ using System.Data;
 
 namespace DeLaSur.Backend.Infrastructure.Repositories
 {
-    public class InventarioRepository : IInventarioRepository
+    public class CompraRepository : ICompraRepository
     {
         private readonly IDbConnection connection;
         private readonly IDbTransaction? transaction;
-        public InventarioRepository(IDbConnection connection, IDbTransaction? transaction)
+        public CompraRepository(IDbConnection connection, IDbTransaction? transaction)
         {
             this.connection = connection;
             this.transaction = transaction;
         }
-        public async Task<IEnumerable<InventarioModel>> Get()
+        public async Task<int> Insert(CompraModel compra)
         {
-            var inventarios = await connection.QueryAsync<InventarioModel>("Movimiento.GetInventario", null, transaction, null, CommandType.StoredProcedure);
-            return inventarios;
+            var id = await connection.ExecuteScalarAsync<int>("Compra.InsertCompra", new { compra.IdProveedor }, transaction, null, CommandType.StoredProcedure);
+            return id;
         }
     }
 }

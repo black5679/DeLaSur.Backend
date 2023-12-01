@@ -9,6 +9,6 @@ namespace DeLaSur.Backend.Domain.Repositories
 {
     public interface IMateriaPrimaBovedaRepository
     {
-        Task<int> Save(List<MateriaPrimaBovedaModel> materiaPrimaBoveda, int idBoveda, int usuarioCreacion);
+        Task<int> Save(List<MateriaPrimaBovedaModel> materiasPrimasBoveda, int idBoveda, int usuarioCreacion);
     }
 }

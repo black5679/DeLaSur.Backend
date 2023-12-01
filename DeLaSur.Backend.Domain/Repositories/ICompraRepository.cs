@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Domain.Repositories
 {
-    public interface IDetalleMovimientoRepository
+    public interface ICompraRepository
     {
-        Task<IEnumerable<DetalleMovimientoModel>> GetByIdMovimiento(int idMovimiento);
+        Task<int> Insert(CompraModel compra);
     }
 }
