@@ -37,7 +37,7 @@
             VVS = 3,
             VS = 4,
             SI = 5,
-            S = 6,
+            I = 6,
         }
         public enum Fuente
         {
@@ -48,10 +48,11 @@
             EntradaMercaderia = 1,
             Transferencia = 2
         }
-        public enum TipoMercaderia
+        public enum TipoMaterial
         {
             Producto = 1,
-            MateriaPrima = 2
+            Gema = 2,
+            Metal = 3
         }
     }
 }

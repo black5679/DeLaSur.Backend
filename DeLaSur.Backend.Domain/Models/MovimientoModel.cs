@@ -10,8 +10,6 @@ namespace DeLaSur.Backend.Domain.Models
     {
         public int Id { get; set; }
         public required int IdTipoMovimiento { get; set; }
-        public required int IdInventario { get; set; }
-        public required int Inventario { get; set; }
         public DateTime FechaCreacion { get; set; }
         public required int UsuarioCreacion { get; set; }
         public List<DetalleMovimientoModel> DetallesMovimiento { get; set; }

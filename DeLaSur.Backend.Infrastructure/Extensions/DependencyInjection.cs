@@ -14,6 +14,7 @@ namespace DeLaSur.Backend.Infrastructure.Extensions
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IDb, Db>();
             services.AddTransient<IScrapingService, ScrapingService>();
+            services.AddTransient<IRenderService, RenderService>();
             return services;
         }
     }

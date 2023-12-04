@@ -25,7 +25,7 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
         public async Task<int> Insert(MovimientoModel movimiento)
         {
             var detalles = movimiento.DetallesMovimiento.Adapt<List<DetalleMovimientoUserDefinedTableType>>();
-            var id = await connection.ExecuteScalarAsync<int>("Movimiento.InsertMovimiento", new { movimiento.IdTipoMovimiento, movimiento.IdInventario, movimiento.Inventario, Detalles = detalles.ToDataTable().AsTableValuedParameter(), movimiento.UsuarioCreacion }, transaction, null, CommandType.StoredProcedure);
+            var id = await connection.ExecuteScalarAsync<int>("Movimiento.InsertMovimiento", new { movimiento.IdTipoMovimiento, Detalles = detalles.ToDataTable().AsTableValuedParameter(), movimiento.UsuarioCreacion }, transaction, null, CommandType.StoredProcedure);
             return id;
         }
     }
