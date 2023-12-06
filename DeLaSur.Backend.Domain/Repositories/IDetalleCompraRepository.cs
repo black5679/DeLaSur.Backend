@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Domain.Repositories
 {
-    public interface ICompraRepository
+    public interface IDetalleCompraRepository
     {
-        Task<int> Insert(CompraModel compra);
-        Task<int> Update(CompraModel compra);
+        Task Save(List<DetalleCompraModel> detallesCompra, int idCompra, int usuarioCreacion);
     }
 }

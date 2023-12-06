@@ -3,7 +3,7 @@
     public class GetTarifaResponse
     {
         public int Id { get; set; }
-        public string? MateriaPrima { get; set; }
+        public string? Material { get; set; }
         public string? Pureza { get; set; }
         public string? Color { get; set; }
         public string? Forma { get; set; }
@@ -14,6 +14,6 @@
         public decimal Ancho { get; set; }
         public decimal Alto { get; set; }
         public DateTime FechaCreacion { get; set; }
-        public DateTime FechaModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
     }
 }

@@ -16,7 +16,12 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
         }
         public async Task<int> Insert(CompraModel compra)
         {
-            var id = await connection.ExecuteScalarAsync<int>("Compra.InsertCompra", new { compra.IdProveedor }, transaction, null, CommandType.StoredProcedure);
+            var id = await connection.ExecuteScalarAsync<int>("Compra.InsertCompra", new { compra.IdProveedor, compra.UsuarioCreacion }, transaction, null, CommandType.StoredProcedure);
+            return id;
+        }
+        public async Task<int> Update(CompraModel compra)
+        {
+            var id = await connection.ExecuteScalarAsync<int>("Compra.UpdateCompra", new { compra.Id, compra.IdProveedor, compra.UsuarioModificacion }, transaction, null, CommandType.StoredProcedure);
             return id;
         }
     }

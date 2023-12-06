@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Infrastructure.UserDefinedTableTypes
 {
-    internal class DetalleEntradaUserDefinedTableType
+    internal class DetalleCompraUserDefinedTableType
     {
         public required int IdMaterial { get; set; }
-        public required int IdBoveda { get; set; }
         public required int Cantidad { get; set; }
+        public required decimal Precio { get; set; }
     }
 }
