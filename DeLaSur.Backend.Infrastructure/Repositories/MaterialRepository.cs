@@ -19,5 +19,10 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
             var material = await connection.QueryFirstOrDefaultAsync<MaterialModel>("Material.GetByIdMaterial", new { Id = id }, transaction, null, CommandType.StoredProcedure);
             return material;
         }
+        public async Task<int> Insert(MaterialModel material)
+        {
+            var id = await connection.ExecuteScalarAsync<int>("Material.InsertMaterial", new { material.IdCategoriaMaterial, material.Nombre, material.Descripcion, material.UsuarioCreacion }, transaction, null, CommandType.StoredProcedure);
+            return id;
+        }
     }
 }

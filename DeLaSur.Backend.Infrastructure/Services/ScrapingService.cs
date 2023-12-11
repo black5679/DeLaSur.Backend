@@ -20,7 +20,7 @@ namespace DeLaSur.Backend.Infrastructure.Services
             // visiting the target web page 
             var web = new HtmlWeb();
             string url = "https://www.carat-online.at/se?page=1&lang=1&g_1=1&g_2=1&g_3=1";
-            var document = web.Load(url);
+            var document = await web.LoadFromWebAsync(url);
             var count = document.DocumentNode.QuerySelector("div.row.category-header.uppercase").QuerySelector("div.three.columns.offer-count").QuerySelector("span.u-pull-right").InnerText.Trim();
             count = count.Remove(count.IndexOf(" "));
             int totalRows = int.Parse(count.Trim());
@@ -30,7 +30,7 @@ namespace DeLaSur.Backend.Infrastructure.Services
             {
                 web = new HtmlWeb();
                 url = "https://www.carat-online.at/se?page=" + page + "&lang=1&g_1=1";
-                document = web.Load(url);
+                document = await web.LoadFromWebAsync(url);
                 var elements = document.DocumentNode.QuerySelectorAll("article.category-item");
                 // iterating over the list of product HTML elements 
                 foreach (var element in elements)

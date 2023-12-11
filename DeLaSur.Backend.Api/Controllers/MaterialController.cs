@@ -1,4 +1,5 @@
-﻿using DeLaSur.Backend.Application.Queries.Material.Get;
+﻿using DeLaSur.Backend.Application.Commands.Material.Insert;
+using DeLaSur.Backend.Application.Queries.Material.Get;
 using DeLaSur.Backend.Application.Queries.Material.GetById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,13 @@ namespace DeLaSur.Backend.Api.Controllers
         public async Task<IActionResult> GetById([FromRoute] GetByIdMaterialQuery query)
         {
             var response = await mediator.Send(query);
+            return Ok(response);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Insert([FromForm] InsertMaterialCommand command)
+        {
+            command.UsuarioCreacion = 1;
+            var response = await mediator.Send(command);
             return Ok(response);
         }
     }

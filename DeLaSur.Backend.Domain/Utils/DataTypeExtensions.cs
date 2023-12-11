@@ -131,6 +131,20 @@ namespace DeLaSur.Backend.Domain.Utils
             string res = bld.ToString();
             return res;
         }
+        public static string ToListString(this List<string> items)
+        {
+            StringBuilder bld = new();
+            for (int i = 0; i < items.Count; i++)
+            {
+                bld.Append(items[i]);
+                if (i < items.Count - 1)
+                {
+                    bld.Append(',');
+                }
+            }
+            string res = bld.ToString();
+            return res;
+        }
 
         public static string Truncate(this string source, int maxLength, bool addEllipsis = false)
         {
