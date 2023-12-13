@@ -8,8 +8,8 @@ namespace DeLaSur.Backend.Domain.Models
 {
     public class EspacioModel
     {
-        public int IdMaterial { get; set; }
-        public int IdMateriaPrima { get; set; }
-        public int IdForma { get; set; }
+        public int Id { get; set; }
+        public required int IdMaterial { get; set; }
+        public int? IdForma { get; set; }
     }
 }

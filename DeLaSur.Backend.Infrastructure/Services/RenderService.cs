@@ -65,7 +65,7 @@ namespace DeLaSur.Backend.Infrastructure.Services
             float r = color.R / 255.0f;
             float g = color.G / 255.0f;
             float b = color.B / 255.0f;
-            var scriptPath = string.Concat(urlModelo,"/InitScript.py");
+
             var psi = new ProcessStartInfo
             {
                 FileName = @"C:\Program Files\Blender Foundation\Blender 3.5\blender.exe",
