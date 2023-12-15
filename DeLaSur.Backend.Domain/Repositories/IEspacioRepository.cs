@@ -9,6 +9,7 @@ namespace DeLaSur.Backend.Domain.Repositories
 {
     public interface IEspacioRepository
     {
+        Task<int> Insert(EspacioModel espacio);
         Task Save(List<EspacioModel> espacios, int idMaterial);
     }
 }
