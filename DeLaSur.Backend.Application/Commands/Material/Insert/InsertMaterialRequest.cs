@@ -16,5 +16,10 @@ namespace DeLaSur.Backend.Application.Commands.Material.Insert
     public class InsertEspacioRequest
     {
         public int IdForma { get; set; }
+        public required List<InsertEspacioMaterialRequest> EspaciosMaterial { get; set; }
+    }
+    public class InsertEspacioMaterialRequest
+    {
+        public int IdMaterial { get; set; }
     }
 }

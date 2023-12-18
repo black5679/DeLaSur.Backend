@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Infrastructure.UserDefinedTableTypes
 {
-    internal class EspacioUserDefinedTableType
+    internal class EspacioMaterialUserDefinedTableType
     {
-        public int IdMateriaPrima { get; set; }
-        public int IdForma { get; set; }
+        public int IdMaterial { get; set; }
     }
 }

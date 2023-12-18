@@ -20,9 +20,5 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
             var id = await connection.ExecuteScalarAsync<int>("Material.InsertEspacio", new { espacio.IdForma, espacio.IdMaterial }, transaction, null, CommandType.StoredProcedure);
             return id;
         }
-        public async Task Save(List<EspacioModel> espacios, int idMaterial)
-        {
-            await connection.ExecuteAsync("Material.SaveEspacio", new { Espacios = espacios.ToDataTable().AsTableValuedParameter(), IdMaterial = idMaterial }, transaction, null, CommandType.StoredProcedure);
-        }
     }
 }

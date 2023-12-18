@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Domain.Repositories
 {
-    public interface IEspacioRepository
+    public interface IEspacioMaterialRepository
     {
-        Task<int> Insert(EspacioModel espacio);
+        Task Save(List<EspacioMaterialModel> espaciosMaterial, int idEspacio);
     }
 }

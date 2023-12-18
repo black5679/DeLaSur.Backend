@@ -17,6 +17,7 @@ namespace DeLaSur.Backend.Application.Commands.Material.Insert
         private readonly IColorMaterialRepository colorMaterialRepository;
         private readonly IModeloRepository modeloRepository;
         private readonly IEspacioRepository espacioRepository;
+        private readonly IEspacioMaterialRepository espacioMaterialRepository;
         private readonly IRenderService renderService;
         private readonly IStorageService storageService;
         public InsertMaterialCommandHandler(IUnitOfWork unitOfWork, IRenderService renderService, IStorageService storageService)
@@ -26,6 +27,7 @@ namespace DeLaSur.Backend.Application.Commands.Material.Insert
             colorMaterialRepository = new ColorMaterialRepository(unitOfWork.Connection, unitOfWork.Transaction);
             modeloRepository = new ModeloRepository(unitOfWork.Connection, unitOfWork.Transaction);
             espacioRepository = new EspacioRepository(unitOfWork.Connection, unitOfWork.Transaction);
+            espacioMaterialRepository = new EspacioMaterialRepository(unitOfWork.Connection, unitOfWork.Transaction);
             this.renderService = renderService;
             this.storageService = storageService;
         }
@@ -52,11 +54,17 @@ namespace DeLaSur.Backend.Application.Commands.Material.Insert
                 await colorMaterialRepository.Save(request.Colores, id, request.UsuarioCreacion);
             }
             // Registrando Espacios
-            var espacios = request.Espacios.Adapt<List<EspacioModel>>();
-            await espacioRepository.Save(espacios, id);
+            foreach (var item in request.Espacios)
+            {
+                var espacio = item.Adapt<EspacioModel>();
+                var idEspacio = await espacioRepository.Insert(espacio);
+                var espaciosMaterial = item.EspaciosMaterial.Adapt<List<EspacioMaterialModel>>();
+                await espacioMaterialRepository.Save(espaciosMaterial, idEspacio);
+            }
             // Renderizando imagenes
             foreach (var modelo in modelos)
             {
+                var espacios = request.Espacios.Adapt<List<EspacioModel>>();
                 await renderService.Local(modelo, espacios);
             }
             unitOfWork.Commit();
