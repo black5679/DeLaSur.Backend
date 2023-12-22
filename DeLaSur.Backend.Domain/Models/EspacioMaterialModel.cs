@@ -2,7 +2,8 @@
 {
     public class EspacioMaterialModel
     {
-        public int IdEspacio { get; set; }
-        public int IdMaterial { get; set; }
+        public required int IdEspacio { get; set; }
+        public required int IdMaterial { get; set; }
+        public required string ColorHex { get; set; }
     }
 }
