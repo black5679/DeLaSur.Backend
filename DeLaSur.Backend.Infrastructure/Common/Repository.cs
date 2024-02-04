@@ -14,11 +14,11 @@ namespace DeLaSur.Backend.Infrastructure.Common
         protected readonly IDbConnection Connection;
         protected readonly IDbTransaction? Transaction;
         protected readonly int IdUsuario;
-        protected Repository(IUnitOfWork unitOfWork)
+        protected Repository(IDbSession db)
         {
-            Connection = unitOfWork.Connection;
-            Transaction = unitOfWork.Transaction;
-            IdUsuario = unitOfWork.IdUsuario;
+            Connection = db.Connection;
+            Transaction = db.Transaction;
+            IdUsuario = db.IdUsuario;
         }
     }
 }

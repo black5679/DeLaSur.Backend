@@ -7,6 +7,6 @@ namespace DeLaSur.Backend.Application.Commands.MateriaPrima.Insert
     {
         public required string Nombre { get; set; }
         public string? Descripcion { get; set; }
-        public int IdSubCategoriaMateriaPrima { get; set; }
+        public int IdCategoriaMateriaPrima { get; set; }
     }
 }

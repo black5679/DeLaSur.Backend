@@ -9,7 +9,7 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
 {
     public class CategoriaMateriaPrimaRepository : Repository, ICategoriaMateriaPrimaRepository
     {
-        public CategoriaMateriaPrimaRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public CategoriaMateriaPrimaRepository(IDbSession db) : base(db)
         {
 
         }

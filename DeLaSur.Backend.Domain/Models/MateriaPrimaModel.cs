@@ -4,7 +4,7 @@
     {
         public int IdMateriaPrima { get; set; }
         public new int IdMaterial { get; set; }
-        public int IdSubCategoriaMateriaPrima { get; set; }
+        public int IdCategoriaMateriaPrima { get; set; }
         public MateriaPrimaModel()
         {
 

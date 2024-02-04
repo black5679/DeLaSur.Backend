@@ -6,64 +6,48 @@ namespace DeLaSur.Backend.Infrastructure.UoW
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly IDb _db;
-
         private bool _disposed;
-        public int IdUsuario { get; set; }
+        private readonly IDbSession _dbSession;
 
-        private DbTransaction _transaction = null!;
-        public IDbTransaction Transaction => _transaction;
-
-        public IDbConnection Connection => _db.Connection;
-
-        public UnitOfWork(IDb db)
+        public UnitOfWork(IDbSession dbSession)
         {
-            _db = db;
+            _dbSession = dbSession;
             _disposed = false;
             BeginTransaction();
         }
         public void BeginTransaction(IsolationLevel isolationLevel = IsolationLevel.ReadCommitted)
         {
-            if (_db.Connection.State != ConnectionState.Open)
+            if (_dbSession.Connection.State != ConnectionState.Open)
             {
-                _db.Connection.Open();
+                _dbSession.Connection.Open();
             }
 
-            _transaction = (DbTransaction)_db.Connection.BeginTransaction(isolationLevel);
+            _dbSession.Transaction = (DbTransaction)_dbSession.Connection.BeginTransaction(isolationLevel);
         }
 
         public bool Commit()
         {
-            if (_transaction?.Connection == null)
+            if (_dbSession.Transaction?.Connection == null)
             {
                 return false;
             }
 
-            _transaction.Commit();
+            _dbSession.Transaction.Commit();
             return true;
         }
 
         public void Rollback()
         {
-            if (_transaction.Connection != null)
+            if (_dbSession.Transaction?.Connection != null)
             {
-                _transaction.Rollback();
+                _dbSession.Transaction.Rollback();
             }
         }
         protected virtual void Dispose(bool disposing)
         {
-            if (!_disposed && disposing && _db != null)
+            if (!_disposed && disposing && _dbSession != null)
             {
-                if (_db.Connection.State == ConnectionState.Open)
-                {
-                    _db.Connection.Close();
-                }
-
-                if (_transaction?.Connection != null)
-                {
-                    ((IDisposable)_transaction).Dispose();
-                }
-                _db?.Dispose();
+                _dbSession.Dispose();
             }
 
             _disposed = true;

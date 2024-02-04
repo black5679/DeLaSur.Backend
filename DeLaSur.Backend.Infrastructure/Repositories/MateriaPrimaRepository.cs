@@ -9,13 +9,13 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
 {
     public class MateriaPrimaRepository : Repository, IMateriaPrimaRepository
     {
-        public MateriaPrimaRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public MateriaPrimaRepository(IDbSession db) : base(db)
         {
 
         }
         public async Task<int> Insert(MateriaPrimaModel materiaPrima)
         {
-            var id = await Connection.ExecuteScalarAsync<int>("Material.InsertMateriaPrima", new { materiaPrima.IdSubCategoriaMateriaPrima, materiaPrima.Nombre, materiaPrima.Descripcion, UsuarioCreacion = IdUsuario }, Transaction, null, CommandType.StoredProcedure);
+            var id = await Connection.ExecuteScalarAsync<int>("Material.InsertMateriaPrima", new { materiaPrima.IdCategoriaMateriaPrima, materiaPrima.Nombre, materiaPrima.Descripcion, UsuarioCreacion = IdUsuario }, Transaction, null, CommandType.StoredProcedure);
             return id;
         }
     }
