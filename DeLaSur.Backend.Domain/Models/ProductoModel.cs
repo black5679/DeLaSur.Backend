@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DeLaSur.Backend.Domain.Models
 {
-    public class ProductoModel
+    public class ProductoModel : MaterialModel
     {
-        public int Id { get; set; }
-        public int IdMaterial { get; set; }
+        public int IdProducto { get; set; }
+        public new int IdMaterial { get; set; }
         public int IdCategoriaProducto { get; set; }
     }
 }

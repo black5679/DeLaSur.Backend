@@ -4,6 +4,7 @@ using DeLaSur.Backend.Domain.UoW;
 using MediatR;
 using Mapster;
 using DeLaSur.Backend.Domain.Models;
+using DeLaSur.Backend.Domain.Exceptions;
 
 namespace DeLaSur.Backend.Application.Commands.MateriaPrima.Insert
 {
@@ -11,18 +12,17 @@ namespace DeLaSur.Backend.Application.Commands.MateriaPrima.Insert
     {
         private readonly IUnitOfWork unitOfWork;
         private readonly IMateriaPrimaRepository materiaPrimaRepository;
-        public InsertMateriaPrimaCommandHandler(IUnitOfWork unitOfWork)
+        public InsertMateriaPrimaCommandHandler(IUnitOfWork unitOfWork, IMateriaPrimaRepository materiaPrimaRepository)
         {
             this.unitOfWork = unitOfWork;
-            materiaPrimaRepository = new MateriaPrimaRepository(unitOfWork.Connection, unitOfWork.Transaction);
+            this.materiaPrimaRepository = materiaPrimaRepository;
         }
         public async Task<ResponseModel> Handle(InsertMateriaPrimaCommand request, CancellationToken cancellationToken)
         {
             var materiaPrima = request.Adapt<MateriaPrimaModel>();
-            materiaPrima.Material = request.Adapt<MaterialModel>();
             var id = await materiaPrimaRepository.Insert(materiaPrima);
             unitOfWork.Commit();
-            return new ResponseModel { Data = id, Message = "Se registró la materia prima con éxito." };
+            return new() { Data = id, Message = "Se registró la materia prima con éxito." };
         }
     }
 }

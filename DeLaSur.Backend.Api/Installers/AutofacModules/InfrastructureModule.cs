@@ -1,5 +1,7 @@
 ﻿using Autofac;
+using DeLaSur.Backend.Domain.Repositories;
 using DeLaSur.Backend.Domain.UoW;
+using DeLaSur.Backend.Infrastructure.Repositories;
 using DeLaSur.Backend.Infrastructure.UoW;
 using System.Data;
 using System.Data.SqlClient;
@@ -16,20 +18,18 @@ namespace DeLaSur.Backend.Api.Installers.AutofacModules
         protected override void Load(ContainerBuilder builder)
         {
             string cs = configuration.GetConnectionString("Database") ?? throw new Exception();
-            builder.Register(d => new SqlConnection(cs)).As<IDbConnection>();
+            builder.Register(d => new SqlConnection(cs)).As<IDbConnection>().InstancePerLifetimeScope();
             builder.RegisterType<Db>().As<IDb>().InstancePerLifetimeScope();
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>()
                 .OnActivating(e =>
                 {
                     var obj = e.Instance;
                     obj.IdUsuario = 1;
-                    //var user = e.Context.Resolve<IHttpContextAccessor>().HttpContext?.Request?.HttpContext?.User;
-                    //if (user != null && user.Identity.IsAuthenticated)
-                    //{
-                    //    //obj.UserName = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value?.ToUpper();
-                    //}
                 })
                 .InstancePerLifetimeScope();
+            builder.RegisterType<MateriaPrimaRepository>().As<IMateriaPrimaRepository>().InstancePerDependency();
+            builder.RegisterType<CategoriaMateriaPrimaRepository>().As<ICategoriaMateriaPrimaRepository>().InstancePerDependency();
+            builder.RegisterType<SubCategoriaMateriaPrimaRepository>().As<ISubCategoriaMateriaPrimaRepository>().InstancePerDependency();
         }
     }
 }

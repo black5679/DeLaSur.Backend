@@ -1,9 +1,5 @@
-using Autofac;
-using Autofac.Extensions.DependencyInjection;
-using Autofac.Integration.WebApi;
 using DeLaSur.Backend.Api.Installers;
-using DeLaSur.Backend.Api.Installers.AutofacModules;
-using System.Reflection;
+using DeLaSur.Backend.Api.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.InstallAutofacModules(builder.Configuration);
@@ -28,5 +24,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.UseMiddleware<ErrorHandlerMiddleware>();
 app.Run();
