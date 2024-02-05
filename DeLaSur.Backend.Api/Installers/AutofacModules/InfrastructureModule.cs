@@ -1,7 +1,9 @@
 ﻿using Autofac;
 using DeLaSur.Backend.Domain.Repositories;
+using DeLaSur.Backend.Domain.Services;
 using DeLaSur.Backend.Domain.UoW;
 using DeLaSur.Backend.Infrastructure.Repositories;
+using DeLaSur.Backend.Infrastructure.Services;
 using DeLaSur.Backend.Infrastructure.UoW;
 using System.Data;
 using System.Data.SqlClient;
@@ -19,6 +21,7 @@ namespace DeLaSur.Backend.Api.Installers.AutofacModules
         {
             string cs = configuration.GetConnectionString("Database") ?? throw new Exception();
             builder.Register(d => new SqlConnection(cs)).As<IDbConnection>().InstancePerLifetimeScope();
+            // Unit of Work
             builder.RegisterType<Db>().As<IDb>().InstancePerLifetimeScope();
             builder.RegisterType<DbSession>().As<IDbSession>()
                 .OnActivating(e =>
@@ -28,8 +31,13 @@ namespace DeLaSur.Backend.Api.Installers.AutofacModules
                 })
                 .InstancePerLifetimeScope();
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+            // Repositories
             builder.RegisterType<MateriaPrimaRepository>().As<IMateriaPrimaRepository>().InstancePerDependency();
             builder.RegisterType<CategoriaMateriaPrimaRepository>().As<ICategoriaMateriaPrimaRepository>().InstancePerDependency();
+            builder.RegisterType<ColorRepository>().As<IColorRepository>().InstancePerDependency();
+            builder.RegisterType<TarifaRepository>().As<ITarifaRepository>().InstancePerDependency();
+            // Services
+            builder.RegisterType<ScrapingService>().As<IScrapingService>().InstancePerDependency();
         }
     }
 }
