@@ -66,22 +66,22 @@ namespace DeLaSur.Backend.Infrastructure.Services
                             MatchCollection matches = regex.Matches(measures);
 
                             // Convertir coincidencias a decimal
-                            decimal[] numbers = matches
-                                .Cast<Match>()
-                                .Select(match => decimal.Parse(match.Value))
-                                .ToArray();
-                            if (numbers.Length > 0)
-                            {
-                                product.Largo = numbers[0];
-                            }
-                            if (numbers.Length > 1)
-                            {
-                                product.Ancho = numbers[1];
-                            }
-                            if (numbers.Length > 2)
-                            {
-                                product.Alto = numbers[2];
-                            }
+                            //decimal[] numbers = matches
+                            //    .Cast<Match>()
+                            //    .Select(match => decimal.Parse(match.Value))
+                            //    .ToArray();
+                            //if (numbers.Length > 0)
+                            //{
+                            //    product.Largo = numbers[0];
+                            //}
+                            //if (numbers.Length > 1)
+                            //{
+                            //    product.Ancho = numbers[1];
+                            //}
+                            //if (numbers.Length > 2)
+                            //{
+                            //    product.Alto = numbers[2];
+                            //}
                         }
                     }
                     var name = container.QuerySelector("div.item-description").QuerySelector("h2.item-title").InnerText;

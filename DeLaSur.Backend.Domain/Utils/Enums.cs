@@ -28,7 +28,9 @@
             Zircon = 22,
             Berilo = 23,
             Rubelita = 24,
-            Espinela = 25
+            Espinela = 25,
+            Obsidiana = 26,
+            Calcedonia = 27
         }
         public enum Pureza
         {
@@ -38,6 +40,29 @@
             VS = 4,
             SI = 5,
             I = 6,
+            Transparente = 7,
+            Translucido = 8,
+            Opaco = 9
+        }
+        public enum Forma
+        {
+            Redonda = 1,
+            Ovalada = 2,
+            Octagonal = 3,
+            Pera = 4,
+            Cuadrada = 5,
+            Trillon = 6,
+            Marquesa = 7,
+            Corazon = 8,
+            Cojin = 9
+        }
+        public enum Corte
+        {
+            Excellent = 1,
+            VeryGood = 2,
+            Good = 3,
+            Fair = 4,
+            Poor = 5
         }
         public enum Fuente
         {
