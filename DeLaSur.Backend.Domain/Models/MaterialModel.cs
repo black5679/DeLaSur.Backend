@@ -6,7 +6,7 @@ namespace DeLaSur.Backend.Domain.Models
     {
         public int IdMaterial { get; set; }
         public int IdTipoMaterial { get; set; }
-        public string Nombre { get; set; } = string.Empty;
+        public string Nombre { get; set; } = null!;
         public string? Descripcion { get; set; }
         public MaterialModel()
         {

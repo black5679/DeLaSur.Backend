@@ -6,6 +6,6 @@ namespace DeLaSur.Backend.Domain.Models
     {
         public int IdCategoriaMateriaPrima { get; set; }
         public int IdTipoMateriaPrima { get; set; }
-        public string Nombre { get; set; } = string.Empty;
+        public string Nombre { get; set; } = null!;
     }
 }

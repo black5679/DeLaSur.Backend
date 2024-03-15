@@ -36,6 +36,14 @@ namespace DeLaSur.Backend.Api.Installers.AutofacModules
             builder.RegisterType<CategoriaMateriaPrimaRepository>().As<ICategoriaMateriaPrimaRepository>().InstancePerDependency();
             builder.RegisterType<ColorRepository>().As<IColorRepository>().InstancePerDependency();
             builder.RegisterType<TarifaRepository>().As<ITarifaRepository>().InstancePerDependency();
+            builder.RegisterType<BovedaRepository>().As<IBovedaRepository>().InstancePerDependency();
+            builder.RegisterType<TipoBovedaRepository>().As<ITipoBovedaRepository>().InstancePerDependency();
+            builder.RegisterType<TipoMovimientoRepository>().As<ITipoMovimientoRepository>().InstancePerDependency();
+            builder.RegisterType<CompraRepository>().As<ICompraRepository>().InstancePerDependency();
+            builder.RegisterType<DetalleCompraRepository>().As<IDetalleCompraRepository>().InstancePerDependency();
+            builder.RegisterType<EntradaRepository>().As<IEntradaRepository>().InstancePerDependency();
+            builder.RegisterType<DetalleEntradaRepository>().As<IDetalleEntradaRepository>().InstancePerDependency();
+            builder.RegisterType<MaterialBovedaRepository>().As<IMaterialBovedaRepository>().InstancePerDependency();
             // Services
             builder.RegisterType<ScrapingService>().As<IScrapingService>().InstancePerDependency();
         }

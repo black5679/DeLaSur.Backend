@@ -12,10 +12,7 @@ namespace DeLaSur.Backend.Infrastructure.Repositories
 {
     public class TarifaRepository : Repository, ITarifaRepository
     {
-        public TarifaRepository(IDbSession db) : base(db)
-        {
-
-        }
+        public TarifaRepository(IDbSession db) : base(db) { }
         public async Task<TarifaModel?> GetById(int id)
         {
             var tarifa = await Connection.QueryFirstOrDefaultAsync<TarifaModel>("Material.GetTarifaById", new { IdTarifa = id }, Transaction, null, CommandType.StoredProcedure);
