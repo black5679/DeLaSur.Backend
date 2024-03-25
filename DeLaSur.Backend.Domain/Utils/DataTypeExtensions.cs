@@ -104,11 +104,11 @@ namespace DeLaSur.Backend.Domain.Utils
 
             foreach (T item in items)
             {
-                object[] array3 = new object[array.Length];
+                object?[] array3 = new object[array.Length];
                 for (int j = 0; j < array.Length; j++)
                 {
                     PropertyInfo propertyInfo2 = array[j];
-                    array3[j] = propertyInfo2.GetValue(item, null) ?? new object();
+                    array3[j] = propertyInfo2.GetValue(item, null);
                 }
 
                 dataTable.Rows.Add(array3);

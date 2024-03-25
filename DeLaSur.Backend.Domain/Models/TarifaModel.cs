@@ -12,7 +12,7 @@ namespace DeLaSur.Backend.Domain.Models
         public int IdMaterial { get; set; }
         public int IdPureza { get; set; }
         public int IdColor { get; set; }
-        public int IdForma { get; set; }
+        public int? IdForma { get; set; }
         public int IdFuente { get; set; }
         public decimal Precio { get; set; }
         public decimal Peso { get; set; }

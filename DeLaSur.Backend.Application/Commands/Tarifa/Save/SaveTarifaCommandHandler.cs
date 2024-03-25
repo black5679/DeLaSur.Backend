@@ -40,7 +40,7 @@ namespace DeLaSur.Backend.Application.Commands.Tarifa.Save
             foreach (var carat in carats)
             {
                 TarifaModel tarifa = new TarifaModel();
-                // Materia Prima
+                #region Materia Prima
                 var name = carat.Name != null ? carat.Name.ToLower().Trim() : "";
                 if (name.Contains("ruby"))
                 {
@@ -130,7 +130,8 @@ namespace DeLaSur.Backend.Application.Commands.Tarifa.Save
                 {
                     tarifa.IdMaterial = (int)Enums.MateriaPrima.Diamante;
                 }
-                // Pureza
+                #endregion
+                #region Pureza
                 var clarity = carat.Clarity != null ? carat.Clarity.ToLower().Trim() : "";
                 if ((clarity.Contains("eye") || clarity.Contains("loupe")) && clarity.Contains("clean"))
                 {
@@ -188,7 +189,8 @@ namespace DeLaSur.Backend.Application.Commands.Tarifa.Save
                 {
                     tarifa.IdPureza = (int)Enums.Pureza.Translucido;
                 }
-                // Forma y Corte
+                #endregion
+                #region Forma
                 var shapeCut = carat.Forma != null ? carat.Forma.ToLower().Trim() : "";
                 if (shapeCut.Contains("rounded"))
                 {
@@ -206,6 +208,32 @@ namespace DeLaSur.Backend.Application.Commands.Tarifa.Save
                 {
                     tarifa.IdForma = (int)Enums.Forma.Trillon;
                 }
+                if (shapeCut.Contains("pear"))
+                {
+                    tarifa.IdForma = (int)Enums.Forma.Pera;
+                }
+                if (shapeCut.Contains("marquise"))
+                {
+                    tarifa.IdForma = (int)Enums.Forma.Marquesa;
+                }
+                if (shapeCut.Contains("square"))
+                {
+                    tarifa.IdForma = (int)Enums.Forma.Cuadrada;
+                }
+                if (shapeCut.Contains("rectangle"))
+                {
+                    tarifa.IdForma = (int)Enums.Forma.Rectangular;
+                }
+                if (shapeCut.Contains("heart"))
+                {
+                    tarifa.IdForma = (int)Enums.Forma.Corazon;
+                }
+                if (shapeCut.Contains("cushion"))
+                {
+                    tarifa.IdForma = (int)Enums.Forma.Cojin;
+                }
+                #endregion
+                #region Corte
                 if (shapeCut.Contains("faceted"))
                 {
 
@@ -237,6 +265,7 @@ namespace DeLaSur.Backend.Application.Commands.Tarifa.Save
 
                     }
                 }
+                #endregion
                 if (tarifa.IdMaterial != 0 && tarifa.IdPureza != 0)
                 {
                     tarifa.Precio = carat.Precio;

@@ -54,7 +54,8 @@
             Trillon = 6,
             Marquesa = 7,
             Corazon = 8,
-            Cojin = 9
+            Cojin = 9,
+            Rectangular = 10
         }
         public enum Corte
         {

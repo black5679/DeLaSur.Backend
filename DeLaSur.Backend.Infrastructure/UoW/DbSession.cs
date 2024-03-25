@@ -11,6 +11,7 @@ namespace DeLaSur.Backend.Infrastructure.UoW
 
         public IDbConnection Connection => _db.Connection;
         public int IdUsuario { get; set; }
+        public string? IpAddress { get; set; }
 
         private bool _disposed;
         public DbSession(IDb db)

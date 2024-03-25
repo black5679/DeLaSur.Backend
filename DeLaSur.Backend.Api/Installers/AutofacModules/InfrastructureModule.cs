@@ -5,6 +5,7 @@ using DeLaSur.Backend.Domain.UoW;
 using DeLaSur.Backend.Infrastructure.Repositories;
 using DeLaSur.Backend.Infrastructure.Services;
 using DeLaSur.Backend.Infrastructure.UoW;
+using Microsoft.AspNetCore.Http;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -20,14 +21,17 @@ namespace DeLaSur.Backend.Api.Installers.AutofacModules
         protected override void Load(ContainerBuilder builder)
         {
             string cs = configuration.GetConnectionString("Database") ?? throw new Exception();
+            builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>().SingleInstance();
             builder.Register(d => new SqlConnection(cs)).As<IDbConnection>().InstancePerLifetimeScope();
             // Unit of Work
             builder.RegisterType<Db>().As<IDb>().InstancePerLifetimeScope();
             builder.RegisterType<DbSession>().As<IDbSession>()
                 .OnActivating(e =>
                 {
+                    var httpContextAccessor = e.Context.Resolve<IHttpContextAccessor>();
                     var obj = e.Instance;
                     obj.IdUsuario = 1;
+                    obj.IpAddress = httpContextAccessor?.HttpContext?.Connection?.RemoteIpAddress?.ToString();
                 })
                 .InstancePerLifetimeScope();
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
@@ -44,8 +48,10 @@ namespace DeLaSur.Backend.Api.Installers.AutofacModules
             builder.RegisterType<EntradaRepository>().As<IEntradaRepository>().InstancePerDependency();
             builder.RegisterType<DetalleEntradaRepository>().As<IDetalleEntradaRepository>().InstancePerDependency();
             builder.RegisterType<MaterialBovedaRepository>().As<IMaterialBovedaRepository>().InstancePerDependency();
+            builder.RegisterType<UsuarioRepository>().As<IUsuarioRepository>().InstancePerDependency();
             // Services
             builder.RegisterType<ScrapingService>().As<IScrapingService>().InstancePerDependency();
+            builder.RegisterType<JwtService>().As<IJwtService>().InstancePerDependency();
         }
     }
 }

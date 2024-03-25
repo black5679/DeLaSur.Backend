@@ -12,5 +12,6 @@ namespace DeLaSur.Backend.Domain.UoW
         IDbTransaction? Transaction { get; set; }
         IDbConnection Connection { get; }
         int IdUsuario { get; set; }
+        string? IpAddress { get; set; }
     }
 }
